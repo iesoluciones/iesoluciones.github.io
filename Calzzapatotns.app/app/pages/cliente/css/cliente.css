@@ -1,0 +1,13 @@
+TextField{
+    color:black;
+    border-bottom-width: 1;
+    border-bottom-color: #2b2b2b;
+    margin-top: 15;
+    padding-left: 5;
+}
+.btn-like{
+    horiz-align: center;
+    vertical-align: center;
+    height: 30;
+    width: 30;
+}

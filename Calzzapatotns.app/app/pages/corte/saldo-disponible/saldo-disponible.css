@@ -1,0 +1,52 @@
+.cardStyle {
+    background-color: #fff;
+    color: #000;
+}
+
+.label-ultima{
+    color:#223D98;
+    font-weight: 800;
+    margin: 10;  }
+
+.texto-ultima{
+    color:#434343;
+    text-align: right;
+    font-weight: bold;
+    margin: 10;  }
+
+.labelTitulo{
+    color:#434343;
+    font-weight: normal;
+    margin: 10;
+}
+
+.texto{
+    color: #434343;
+    font-weight: bold;
+    margin: 10;
+    text-align: right;  }
+
+StackLayout{
+    background-color:#223D98;
+}
+
+.stack-titulo{
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    margin: 5;
+}
+
+.stack-texto{
+    color: #fff;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 25px;
+    margin-bottom: 10;
+}
+
+.texto-activo{
+    color: #223D98;
+    font-weight:bolder;
+    text-align: right;
+}

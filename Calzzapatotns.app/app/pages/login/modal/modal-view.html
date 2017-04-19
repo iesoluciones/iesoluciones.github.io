@@ -1,0 +1,43 @@
+<ScrollView class="modal-view-style">
+    <StackLayout style="margin: 0px;padding: 0px">
+        <Label class="title" text="Recuperar Contraseña" style="margin: 15px 0px 15px 15px"></Label>
+        <TextField  hint="Usuario" keyboardType="next" [(ngModel)]="user.usuario" autocorrect="true" autocapitalizationType="none" marginBottom="5%"></TextField>
+        <TextField hint="Email" keyboardType="next" [(ngModel)]="user.email" autocorrect="true" autocapitalizationType="none" marginBottom="5%"></TextField>
+        <Label text="ó" horizontalAlignment="center" marginBottom="1%"></Label>
+        <TextField hint="Teléfono" keyboardType="phone" [(ngModel)]="user.telefono" autocorrect="true" autocapitalizationType="none" marginBottom="5%"></TextField>
+        <GridLayout columns="*, *" rows="*" style="border-color: #D9D9D9;border-width: 1 0 0 0; height: 50px;margin=15px;">
+            <Label row="0" col="0" [text]="'CANCELAR'" horizontalAlignment="center" verticalAlignment="center" marginTop="30%" (tap)="cerrar()" style="margin: 15px 0px 15px 15px;background-color: #00caab;" ></Label>
+            <Label row="0" col="1" [text]="'SOLICITAR'" horizontalAlignment="center" verticalAlignment="center" marginTop="30%" style="margin: 15px 0px 15px 15px"></Label>
+        </GridLayout>
+    </StackLayout>
+</ScrollView>
+
+
+<ScrollView class="modal-view-style">
+  <StackLayout [formGroup]="form" style="margin: 0px;padding: 0px;height: 100%">
+      <Label class="title" text="Recuperar Contraseña" style="margin: 15px 0px 15px 15px"></Label>
+
+      <GridLayout rows="20 auto,auto">
+        <Label row="1" id="label1" fontSize="15" (tap)="onTap('label1')" text="Usuario" textWrap="true"></Label>
+        <TextField keyboardType="next"  (tap)="onTap('label1')" fontSize="15" row="1"  text="" formControlName="usuario"></TextField>
+        <app-error-feedback row="2" [messages]="validationMessages.usuario" [formGroup]="form" controlName="usuario"></app-error-feedback>
+      </GridLayout>
+      <GridLayout rows="20 auto,auto">
+        <Label row="1" id="label6" fontSize="15" (tap)="onTap('label6')" text="Email" textWrap="true"></Label>
+        <TextField keyboardType="next"  (tap)="onTap('label6')" fontSize="15" row="1"  text="" formControlName="email"></TextField>
+        <app-error-feedback [messages]="validationMessages.email" [formGroup]="form" controlName="email"></app-error-feedback>
+      </GridLayout>
+
+      <Label text="ó" horizontalAlignment="center" marginBottom="1%"></Label>
+
+      <GridLayout rows="20 auto,auto">
+        <Label row="1" id="label4" fontSize="15" (tap)="onTap('label4')" text="Celular" textWrap="true"></Label>
+        <TextField keyboardType="phone"  (tap)="onTap('label4')" fontSize="15" row="1"  text="" formControlName="celular"></TextField>
+        <app-error-feedback [messages]="validationMessages.celular" [formGroup]="form" controlName="celular"></app-error-feedback>
+      </GridLayout>
+      <GridLayout rows="auto"  columns="*, *" style="margin: 15px;">
+        <Button row="1" col="0" [text]="'CANCELAR'" class="button-save" style="width: 100%" (tap)="cerrar()" horizontalAlignment="center" verticalAlignment="center"></Button>
+        <Button row="1" col="1" [text]="'SOLICITAR'" class="button-save" style="width: 100%"  [ngClass]="{'style1': !form.valid}" isEnabled = "{{form.valid}}" (tap)="solicitar()" horizontalAlignment="center" verticalAlignment="center"></Button>
+      </GridLayout>
+  </StackLayout>
+</ScrollView>

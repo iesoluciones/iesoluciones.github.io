@@ -1,0 +1,8 @@
+"use strict";
+var Venta = (function () {
+    function Venta() {
+    }
+    return Venta;
+}());
+exports.Venta = Venta;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmVudGEuY2xhc3MuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJ2ZW50YS5jbGFzcy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7SUFBQTtJQVFBLENBQUM7SUFBRCxZQUFDO0FBQUQsQ0FBQyxBQVJELElBUUM7QUFSWSxhQUFLLFFBUWpCLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgVmVudGEge1xuICAgIHB1YmxpYyBpZDogbnVtYmVyO1xuICAgIHB1YmxpYyBjb2RpZ286IG51bWJlcjtcbiAgICBwdWJsaWMgZmVjaGFfYXNpZ25hY2lvbjogc3RyaW5nO1xuICAgIHB1YmxpYyBwZXJzb25hX2F1dG9yaXphOiBzdHJpbmc7XG4gICAgcHVibGljIGZlY2hhX2NvbXByYTogc3RyaW5nO1xuICAgIHB1YmxpYyBsdWdhcl9jb21wcmE6IHN0cmluZztcbiAgICBwdWJsaWMgcGFnb19xdWluY2VuYWw6IG51bWJlcjtcbn1cbiJdfQ==

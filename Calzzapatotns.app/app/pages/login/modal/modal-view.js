@@ -1,0 +1,77 @@
+"use strict";
+var core_1 = require("@angular/core");
+var modal_dialog_1 = require("nativescript-angular/modal-dialog");
+var page_1 = require("ui/page");
+var forms_1 = require("@angular/forms");
+var CustomValidators_1 = require("../../../shared/validators/CustomValidators");
+var enums_1 = require("ui/enums");
+// >> passing-parameters
+var ModalViewComponent = (function () {
+    function ModalViewComponent(params, page, _fb) {
+        this.params = params;
+        this.page = page;
+        this._fb = _fb;
+        this.user = {
+            usuario: '',
+            email: '',
+            celular: ''
+        };
+        this.validationMessages = {
+            usuario: {
+                required: "El usuario es obligatorio",
+                maxLength: "El tamaño máximo del usuario es de 255 dígitos",
+                minLength: "El tamaño mínimo del usuario es de 1 dígito"
+            },
+            celular: {
+                required: "El celular es obligatorio",
+                maxLength: "El tamaño máximo del celular es de 10 dígitos",
+                minLength: "El tamaño mínimo del celular es de 10 dígitos",
+                celular: "Ingrese un celular válido"
+            },
+            email: {
+                required: "El email es obligatorio",
+                maxLength: "El tamaño máximo del email es de 255 dígitos",
+                minLength: "El tamaño mínimo del email es de 1 dígito",
+                email: "El correo no válido."
+            }
+        };
+    }
+    ModalViewComponent.prototype.ngOnInit = function () {
+        this.form = this._fb.group({
+            usuario: ['58536', [forms_1.Validators.required, forms_1.Validators.minLength(1)]],
+            celular: ['', [CustomValidators_1.CustomValidators.celular]],
+            email: ['heris161993@gmail.com', [CustomValidators_1.CustomValidators.email]]
+        });
+        this.onTap('label1');
+        this.onTap('label4');
+        this.onTap('label6');
+    };
+    ModalViewComponent.prototype.solicitar = function () {
+        //alert("Usuario recuperar => "+JSON.stringify(this.form.value));
+        this.params.closeCallback(this.form.value);
+    };
+    ModalViewComponent.prototype.onTap = function (lbl) {
+        var label = this.page.getViewById(lbl);
+        label.animate({
+            translate: { x: 15, y: -15 },
+            duration: 500,
+            curve: enums_1.AnimationCurve.cubicBezier(0.1, 0.1, 0.1, 1)
+        });
+    };
+    ModalViewComponent.prototype.cerrar = function () {
+        this.params.closeCallback(null);
+    };
+    ModalViewComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            //templateUrl: "./modal-view.html",
+            template: " \n        <ScrollView class=\"modal-view-style\">\n          <StackLayout [formGroup]=\"form\" style=\"margin: 0px;padding: 0px;height: 100%\">\n              <Label class=\"title\" text=\"Recuperar Contrase\u00F1a\" style=\"margin: 15px 0px 15px 15px\"></Label> \n              \n              <GridLayout rows=\"20 auto,auto\">\n                <Label row=\"1\" id=\"label1\" fontSize=\"15\" (tap)=\"onTap('label1')\" text=\"Usuario\" textWrap=\"true\"></Label>\n                <TextField keyboardType=\"next\"  (tap)=\"onTap('label1')\" fontSize=\"15\" row=\"1\"  text=\"\" formControlName=\"usuario\"></TextField>\n                <app-error-feedback row=\"2\" [messages]=\"validationMessages.usuario\" [formGroup]=\"form\" controlName=\"usuario\"></app-error-feedback>\n              </GridLayout> \n              <GridLayout rows=\"20 auto,auto\">\n                <Label row=\"1\" id=\"label6\" fontSize=\"15\" (tap)=\"onTap('label6')\" text=\"Email\" textWrap=\"true\"></Label>\n                <TextField keyboardType=\"next\"  (tap)=\"onTap('label6')\" fontSize=\"15\" row=\"1\"  text=\"\" formControlName=\"email\"></TextField>\n                <app-error-feedback [messages]=\"validationMessages.email\" [formGroup]=\"form\" controlName=\"email\"></app-error-feedback>\n              </GridLayout>\n              \n              <Label text=\"\u00F3\" horizontalAlignment=\"center\" marginBottom=\"1%\"></Label>\n              \n              <GridLayout rows=\"20 auto,auto\">\n                <Label row=\"1\" id=\"label4\" fontSize=\"15\" (tap)=\"onTap('label4')\" text=\"Celular\" textWrap=\"true\"></Label>\n                <TextField keyboardType=\"phone\"  (tap)=\"onTap('label4')\" fontSize=\"15\" row=\"1\"  text=\"\" formControlName=\"celular\"></TextField>\n                <app-error-feedback [messages]=\"validationMessages.celular\" [formGroup]=\"form\" controlName=\"celular\"></app-error-feedback>\n              </GridLayout>\n              <GridLayout rows=\"auto\"  columns=\"*, *\" style=\"margin: 0px 15px 15px 15px;\">\n                <Button row=\"1\" col=\"0\" [text]=\"'CANCELAR'\" class=\"button-save\" style=\"width: 100%\" (tap)=\"cerrar()\" horizontalAlignment=\"center\" verticalAlignment=\"center\"></Button>\n                <Button row=\"1\" col=\"1\" [text]=\"'SOLICITAR'\" class=\"button-save\" style=\"width: 100%\"  [ngClass]=\"{'style1': !form.valid}\" isEnabled = \"{{form.valid}}\" (tap)=\"solicitar()\" horizontalAlignment=\"center\" verticalAlignment=\"center\"></Button>\n              </GridLayout> \n          </StackLayout>\n        </ScrollView>\n    ",
+            styleUrls: ["./../login-common.css", "./../login.css"]
+        }), 
+        __metadata('design:paramtypes', [modal_dialog_1.ModalDialogParams, page_1.Page, forms_1.FormBuilder])
+    ], ModalViewComponent);
+    return ModalViewComponent;
+}());
+exports.ModalViewComponent = ModalViewComponent;
+// << passing-parameters
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibW9kYWwtdmlldy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm1vZGFsLXZpZXcudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLHFCQUFnQyxlQUFlLENBQUMsQ0FBQTtBQUNoRCw2QkFBZ0MsbUNBQW1DLENBQUMsQ0FBQTtBQUNwRSxxQkFBbUIsU0FBUyxDQUFDLENBQUE7QUFDN0Isc0JBQWlELGdCQUFnQixDQUFDLENBQUE7QUFDbEUsaUNBQStCLDZDQUE2QyxDQUFDLENBQUE7QUFFN0Usc0JBQTZCLFVBQVUsQ0FBQyxDQUFBO0FBRXhDLHdCQUF3QjtBQW9DeEI7SUE0QkksNEJBQW9CLE1BQXlCLEVBQVUsSUFBVSxFQUFVLEdBQWdCO1FBQXZFLFdBQU0sR0FBTixNQUFNLENBQW1CO1FBQVUsU0FBSSxHQUFKLElBQUksQ0FBTTtRQUFVLFFBQUcsR0FBSCxHQUFHLENBQWE7UUF6QnBGLFNBQUksR0FBUTtZQUNmLE9BQU8sRUFBRSxFQUFFO1lBQ1gsS0FBSyxFQUFFLEVBQUU7WUFDVCxPQUFPLEVBQUUsRUFBRTtTQUNkLENBQUM7UUFDUSx1QkFBa0IsR0FBUTtZQUNoQyxPQUFPLEVBQUU7Z0JBQ0wsUUFBUSxFQUFFLDJCQUEyQjtnQkFDckMsU0FBUyxFQUFFLGdEQUFnRDtnQkFDM0QsU0FBUyxFQUFFLDZDQUE2QzthQUMzRDtZQUNELE9BQU8sRUFBRTtnQkFDTCxRQUFRLEVBQUUsMkJBQTJCO2dCQUNyQyxTQUFTLEVBQUUsK0NBQStDO2dCQUMxRCxTQUFTLEVBQUUsK0NBQStDO2dCQUMxRCxPQUFPLEVBQUUsMkJBQTJCO2FBQ3ZDO1lBQ0QsS0FBSyxFQUFFO2dCQUNILFFBQVEsRUFBRSx5QkFBeUI7Z0JBQ25DLFNBQVMsRUFBRSw4Q0FBOEM7Z0JBQ3pELFNBQVMsRUFBRSwyQ0FBMkM7Z0JBQ3RELEtBQUssRUFBRSxzQkFBc0I7YUFDaEM7U0FDSixDQUFBO0lBSUQsQ0FBQztJQUVELHFDQUFRLEdBQVI7UUFDSSxJQUFJLENBQUMsSUFBSSxHQUFHLElBQUksQ0FBQyxHQUFHLENBQUMsS0FBSyxDQUFDO1lBQ3ZCLE9BQU8sRUFBRSxDQUFDLE9BQU8sRUFBRSxDQUFDLGtCQUFVLENBQUMsUUFBUSxFQUFFLGtCQUFVLENBQUMsU0FBUyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUM7WUFDbEUsT0FBTyxFQUFFLENBQUMsRUFBRSxFQUFFLENBQUMsbUNBQWdCLENBQUMsT0FBTyxDQUFDLENBQUM7WUFDekMsS0FBSyxFQUFFLENBQUMsdUJBQXVCLEVBQUUsQ0FBQyxtQ0FBZ0IsQ0FBQyxLQUFLLENBQUMsQ0FBQztTQUM3RCxDQUFDLENBQUM7UUFDSCxJQUFJLENBQUMsS0FBSyxDQUFDLFFBQVEsQ0FBQyxDQUFDO1FBQ3JCLElBQUksQ0FBQyxLQUFLLENBQUMsUUFBUSxDQUFDLENBQUM7UUFDckIsSUFBSSxDQUFDLEtBQUssQ0FBQyxRQUFRLENBQUMsQ0FBQztJQUN6QixDQUFDO0lBRU0sc0NBQVMsR0FBaEI7UUFDSSxpRUFBaUU7UUFDakUsSUFBSSxDQUFDLE1BQU0sQ0FBQyxhQUFhLENBQUMsSUFBSSxDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsQ0FBQztJQUMvQyxDQUFDO0lBQ00sa0NBQUssR0FBWixVQUFhLEdBQUc7UUFDUixJQUFJLEtBQUssR0FBa0IsSUFBSSxDQUFDLElBQUksQ0FBQyxXQUFXLENBQUMsR0FBRyxDQUFDLENBQUM7UUFDdEQsS0FBSyxDQUFDLE9BQU8sQ0FBQztZQUNWLFNBQVMsRUFBRSxFQUFDLENBQUMsRUFBRSxFQUFFLEVBQUUsQ0FBQyxFQUFFLENBQUMsRUFBRSxFQUFDO1lBQzFCLFFBQVEsRUFBRSxHQUFHO1lBQ2IsS0FBSyxFQUFFLHNCQUFjLENBQUMsV0FBVyxDQUFDLEdBQUcsRUFBRSxHQUFHLEVBQUUsR0FBRyxFQUFFLENBQUMsQ0FBQztTQUN0RCxDQUFDLENBQUM7SUFDUCxDQUFDO0lBQ0wsbUNBQU0sR0FBTjtRQUNJLElBQUksQ0FBQyxNQUFNLENBQUMsYUFBYSxDQUFDLElBQUksQ0FBQyxDQUFDO0lBQ3BDLENBQUM7SUE1Rkw7UUFBQyxnQkFBUyxDQUFDO1lBQ1AsUUFBUSxFQUFFLE1BQU0sQ0FBQyxFQUFFO1lBQ25CLG1DQUFtQztZQUNuQyxRQUFRLEVBQUUsdWpGQTZCVDtZQUNELFNBQVMsRUFBRSxDQUFDLHVCQUF1QixFQUFFLGdCQUFnQixDQUFDO1NBQ3pELENBQUM7OzBCQUFBO0lBMkRGLHlCQUFDO0FBQUQsQ0FBQyxBQTFERCxJQTBEQztBQTFEWSwwQkFBa0IscUJBMEQ5QixDQUFBO0FBQ0Qsd0JBQXdCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnQsIE9uSW5pdH0gZnJvbSBcIkBhbmd1bGFyL2NvcmVcIjtcbmltcG9ydCB7TW9kYWxEaWFsb2dQYXJhbXN9IGZyb20gXCJuYXRpdmVzY3JpcHQtYW5ndWxhci9tb2RhbC1kaWFsb2dcIjtcbmltcG9ydCB7UGFnZX0gZnJvbSBcInVpL3BhZ2VcIjtcbmltcG9ydCB7Rm9ybUdyb3VwLCBGb3JtQnVpbGRlciwgVmFsaWRhdG9yc30gZnJvbSBcIkBhbmd1bGFyL2Zvcm1zXCI7XG5pbXBvcnQge0N1c3RvbVZhbGlkYXRvcnN9IGZyb20gXCIuLi8uLi8uLi9zaGFyZWQvdmFsaWRhdG9ycy9DdXN0b21WYWxpZGF0b3JzXCI7XG5pbXBvcnQge0xhYmVsfSBmcm9tIFwidWkvbGFiZWxcIjtcbmltcG9ydCB7QW5pbWF0aW9uQ3VydmV9IGZyb20gXCJ1aS9lbnVtc1wiO1xuXG4vLyA+PiBwYXNzaW5nLXBhcmFtZXRlcnNcbkBDb21wb25lbnQoe1xuICAgIG1vZHVsZUlkOiBtb2R1bGUuaWQsXG4gICAgLy90ZW1wbGF0ZVVybDogXCIuL21vZGFsLXZpZXcuaHRtbFwiLFxuICAgIHRlbXBsYXRlOiBgIFxuICAgICAgICA8U2Nyb2xsVmlldyBjbGFzcz1cIm1vZGFsLXZpZXctc3R5bGVcIj5cbiAgICAgICAgICA8U3RhY2tMYXlvdXQgW2Zvcm1Hcm91cF09XCJmb3JtXCIgc3R5bGU9XCJtYXJnaW46IDBweDtwYWRkaW5nOiAwcHg7aGVpZ2h0OiAxMDAlXCI+XG4gICAgICAgICAgICAgIDxMYWJlbCBjbGFzcz1cInRpdGxlXCIgdGV4dD1cIlJlY3VwZXJhciBDb250cmFzZcOxYVwiIHN0eWxlPVwibWFyZ2luOiAxNXB4IDBweCAxNXB4IDE1cHhcIj48L0xhYmVsPiBcbiAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgIDxHcmlkTGF5b3V0IHJvd3M9XCIyMCBhdXRvLGF1dG9cIj5cbiAgICAgICAgICAgICAgICA8TGFiZWwgcm93PVwiMVwiIGlkPVwibGFiZWwxXCIgZm9udFNpemU9XCIxNVwiICh0YXApPVwib25UYXAoJ2xhYmVsMScpXCIgdGV4dD1cIlVzdWFyaW9cIiB0ZXh0V3JhcD1cInRydWVcIj48L0xhYmVsPlxuICAgICAgICAgICAgICAgIDxUZXh0RmllbGQga2V5Ym9hcmRUeXBlPVwibmV4dFwiICAodGFwKT1cIm9uVGFwKCdsYWJlbDEnKVwiIGZvbnRTaXplPVwiMTVcIiByb3c9XCIxXCIgIHRleHQ9XCJcIiBmb3JtQ29udHJvbE5hbWU9XCJ1c3VhcmlvXCI+PC9UZXh0RmllbGQ+XG4gICAgICAgICAgICAgICAgPGFwcC1lcnJvci1mZWVkYmFjayByb3c9XCIyXCIgW21lc3NhZ2VzXT1cInZhbGlkYXRpb25NZXNzYWdlcy51c3VhcmlvXCIgW2Zvcm1Hcm91cF09XCJmb3JtXCIgY29udHJvbE5hbWU9XCJ1c3VhcmlvXCI+PC9hcHAtZXJyb3ItZmVlZGJhY2s+XG4gICAgICAgICAgICAgIDwvR3JpZExheW91dD4gXG4gICAgICAgICAgICAgIDxHcmlkTGF5b3V0IHJvd3M9XCIyMCBhdXRvLGF1dG9cIj5cbiAgICAgICAgICAgICAgICA8TGFiZWwgcm93PVwiMVwiIGlkPVwibGFiZWw2XCIgZm9udFNpemU9XCIxNVwiICh0YXApPVwib25UYXAoJ2xhYmVsNicpXCIgdGV4dD1cIkVtYWlsXCIgdGV4dFdyYXA9XCJ0cnVlXCI+PC9MYWJlbD5cbiAgICAgICAgICAgICAgICA8VGV4dEZpZWxkIGtleWJvYXJkVHlwZT1cIm5leHRcIiAgKHRhcCk9XCJvblRhcCgnbGFiZWw2JylcIiBmb250U2l6ZT1cIjE1XCIgcm93PVwiMVwiICB0ZXh0PVwiXCIgZm9ybUNvbnRyb2xOYW1lPVwiZW1haWxcIj48L1RleHRGaWVsZD5cbiAgICAgICAgICAgICAgICA8YXBwLWVycm9yLWZlZWRiYWNrIFttZXNzYWdlc109XCJ2YWxpZGF0aW9uTWVzc2FnZXMuZW1haWxcIiBbZm9ybUdyb3VwXT1cImZvcm1cIiBjb250cm9sTmFtZT1cImVtYWlsXCI+PC9hcHAtZXJyb3ItZmVlZGJhY2s+XG4gICAgICAgICAgICAgIDwvR3JpZExheW91dD5cbiAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgIDxMYWJlbCB0ZXh0PVwiw7NcIiBob3Jpem9udGFsQWxpZ25tZW50PVwiY2VudGVyXCIgbWFyZ2luQm90dG9tPVwiMSVcIj48L0xhYmVsPlxuICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgPEdyaWRMYXlvdXQgcm93cz1cIjIwIGF1dG8sYXV0b1wiPlxuICAgICAgICAgICAgICAgIDxMYWJlbCByb3c9XCIxXCIgaWQ9XCJsYWJlbDRcIiBmb250U2l6ZT1cIjE1XCIgKHRhcCk9XCJvblRhcCgnbGFiZWw0JylcIiB0ZXh0PVwiQ2VsdWxhclwiIHRleHRXcmFwPVwidHJ1ZVwiPjwvTGFiZWw+XG4gICAgICAgICAgICAgICAgPFRleHRGaWVsZCBrZXlib2FyZFR5cGU9XCJwaG9uZVwiICAodGFwKT1cIm9uVGFwKCdsYWJlbDQnKVwiIGZvbnRTaXplPVwiMTVcIiByb3c9XCIxXCIgIHRleHQ9XCJcIiBmb3JtQ29udHJvbE5hbWU9XCJjZWx1bGFyXCI+PC9UZXh0RmllbGQ+XG4gICAgICAgICAgICAgICAgPGFwcC1lcnJvci1mZWVkYmFjayBbbWVzc2FnZXNdPVwidmFsaWRhdGlvbk1lc3NhZ2VzLmNlbHVsYXJcIiBbZm9ybUdyb3VwXT1cImZvcm1cIiBjb250cm9sTmFtZT1cImNlbHVsYXJcIj48L2FwcC1lcnJvci1mZWVkYmFjaz5cbiAgICAgICAgICAgICAgPC9HcmlkTGF5b3V0PlxuICAgICAgICAgICAgICA8R3JpZExheW91dCByb3dzPVwiYXV0b1wiICBjb2x1bW5zPVwiKiwgKlwiIHN0eWxlPVwibWFyZ2luOiAwcHggMTVweCAxNXB4IDE1cHg7XCI+XG4gICAgICAgICAgICAgICAgPEJ1dHRvbiByb3c9XCIxXCIgY29sPVwiMFwiIFt0ZXh0XT1cIidDQU5DRUxBUidcIiBjbGFzcz1cImJ1dHRvbi1zYXZlXCIgc3R5bGU9XCJ3aWR0aDogMTAwJVwiICh0YXApPVwiY2VycmFyKClcIiBob3Jpem9udGFsQWxpZ25tZW50PVwiY2VudGVyXCIgdmVydGljYWxBbGlnbm1lbnQ9XCJjZW50ZXJcIj48L0J1dHRvbj5cbiAgICAgICAgICAgICAgICA8QnV0dG9uIHJvdz1cIjFcIiBjb2w9XCIxXCIgW3RleHRdPVwiJ1NPTElDSVRBUidcIiBjbGFzcz1cImJ1dHRvbi1zYXZlXCIgc3R5bGU9XCJ3aWR0aDogMTAwJVwiICBbbmdDbGFzc109XCJ7J3N0eWxlMSc6ICFmb3JtLnZhbGlkfVwiIGlzRW5hYmxlZCA9IFwie3tmb3JtLnZhbGlkfX1cIiAodGFwKT1cInNvbGljaXRhcigpXCIgaG9yaXpvbnRhbEFsaWdubWVudD1cImNlbnRlclwiIHZlcnRpY2FsQWxpZ25tZW50PVwiY2VudGVyXCI+PC9CdXR0b24+XG4gICAgICAgICAgICAgIDwvR3JpZExheW91dD4gXG4gICAgICAgICAgPC9TdGFja0xheW91dD5cbiAgICAgICAgPC9TY3JvbGxWaWV3PlxuICAgIGAsXG4gICAgc3R5bGVVcmxzOiBbXCIuLy4uL2xvZ2luLWNvbW1vbi5jc3NcIiwgXCIuLy4uL2xvZ2luLmNzc1wiXVxufSlcbmV4cG9ydCBjbGFzcyBNb2RhbFZpZXdDb21wb25lbnQgaW1wbGVtZW50cyBPbkluaXQge1xuICAgIGZvcm06IEZvcm1Hcm91cDtcblxuICAgIHB1YmxpYyB1c2VyOiBhbnkgPSB7XG4gICAgICAgIHVzdWFyaW86ICcnLFxuICAgICAgICBlbWFpbDogJycsXG4gICAgICAgIGNlbHVsYXI6ICcnXG4gICAgfTtcbiAgICBwcm90ZWN0ZWQgdmFsaWRhdGlvbk1lc3NhZ2VzOiBhbnkgPSB7XG4gICAgICAgIHVzdWFyaW86IHtcbiAgICAgICAgICAgIHJlcXVpcmVkOiBcIkVsIHVzdWFyaW8gZXMgb2JsaWdhdG9yaW9cIixcbiAgICAgICAgICAgIG1heExlbmd0aDogXCJFbCB0YW1hw7FvIG3DoXhpbW8gZGVsIHVzdWFyaW8gZXMgZGUgMjU1IGTDrWdpdG9zXCIsXG4gICAgICAgICAgICBtaW5MZW5ndGg6IFwiRWwgdGFtYcOxbyBtw61uaW1vIGRlbCB1c3VhcmlvIGVzIGRlIDEgZMOtZ2l0b1wiXG4gICAgICAgIH0sXG4gICAgICAgIGNlbHVsYXI6IHtcbiAgICAgICAgICAgIHJlcXVpcmVkOiBcIkVsIGNlbHVsYXIgZXMgb2JsaWdhdG9yaW9cIixcbiAgICAgICAgICAgIG1heExlbmd0aDogXCJFbCB0YW1hw7FvIG3DoXhpbW8gZGVsIGNlbHVsYXIgZXMgZGUgMTAgZMOtZ2l0b3NcIixcbiAgICAgICAgICAgIG1pbkxlbmd0aDogXCJFbCB0YW1hw7FvIG3DrW5pbW8gZGVsIGNlbHVsYXIgZXMgZGUgMTAgZMOtZ2l0b3NcIixcbiAgICAgICAgICAgIGNlbHVsYXI6IFwiSW5ncmVzZSB1biBjZWx1bGFyIHbDoWxpZG9cIlxuICAgICAgICB9LFxuICAgICAgICBlbWFpbDoge1xuICAgICAgICAgICAgcmVxdWlyZWQ6IFwiRWwgZW1haWwgZXMgb2JsaWdhdG9yaW9cIixcbiAgICAgICAgICAgIG1heExlbmd0aDogXCJFbCB0YW1hw7FvIG3DoXhpbW8gZGVsIGVtYWlsIGVzIGRlIDI1NSBkw61naXRvc1wiLFxuICAgICAgICAgICAgbWluTGVuZ3RoOiBcIkVsIHRhbWHDsW8gbcOtbmltbyBkZWwgZW1haWwgZXMgZGUgMSBkw61naXRvXCIsXG4gICAgICAgICAgICBlbWFpbDogXCJFbCBjb3JyZW8gbm8gdsOhbGlkby5cIlxuICAgICAgICB9XG4gICAgfVxuXG4gICAgY29uc3RydWN0b3IocHJpdmF0ZSBwYXJhbXM6IE1vZGFsRGlhbG9nUGFyYW1zLCBwcml2YXRlIHBhZ2U6IFBhZ2UsIHByaXZhdGUgX2ZiOiBGb3JtQnVpbGRlcikge1xuXG4gICAgfVxuXG4gICAgbmdPbkluaXQoKSB7XG4gICAgICAgIHRoaXMuZm9ybSA9IHRoaXMuX2ZiLmdyb3VwKHtcbiAgICAgICAgICAgIHVzdWFyaW86IFsnNTg1MzYnLCBbVmFsaWRhdG9ycy5yZXF1aXJlZCwgVmFsaWRhdG9ycy5taW5MZW5ndGgoMSldXSxcbiAgICAgICAgICAgIGNlbHVsYXI6IFsnJywgW0N1c3RvbVZhbGlkYXRvcnMuY2VsdWxhcl1dLFxuICAgICAgICAgICAgZW1haWw6IFsnaGVyaXMxNjE5OTNAZ21haWwuY29tJywgW0N1c3RvbVZhbGlkYXRvcnMuZW1haWxdXVxuICAgICAgICB9KTtcbiAgICAgICAgdGhpcy5vblRhcCgnbGFiZWwxJyk7XG4gICAgICAgIHRoaXMub25UYXAoJ2xhYmVsNCcpO1xuICAgICAgICB0aGlzLm9uVGFwKCdsYWJlbDYnKTtcbiAgICB9XG5cbiAgICBwdWJsaWMgc29saWNpdGFyKCkge1xuICAgICAgICAvL2FsZXJ0KFwiVXN1YXJpbyByZWN1cGVyYXIgPT4gXCIrSlNPTi5zdHJpbmdpZnkodGhpcy5mb3JtLnZhbHVlKSk7XG4gICAgICAgIHRoaXMucGFyYW1zLmNsb3NlQ2FsbGJhY2sodGhpcy5mb3JtLnZhbHVlKTtcbiAgICB9XG4gICAgcHVibGljIG9uVGFwKGxibCkge1xuICAgICAgICAgICAgdmFyIGxhYmVsOiBMYWJlbCA9IDxMYWJlbD4gdGhpcy5wYWdlLmdldFZpZXdCeUlkKGxibCk7XG4gICAgICAgICAgICBsYWJlbC5hbmltYXRlKHtcbiAgICAgICAgICAgICAgICB0cmFuc2xhdGU6IHt4OiAxNSwgeTogLTE1fSxcbiAgICAgICAgICAgICAgICBkdXJhdGlvbjogNTAwLFxuICAgICAgICAgICAgICAgIGN1cnZlOiBBbmltYXRpb25DdXJ2ZS5jdWJpY0JlemllcigwLjEsIDAuMSwgMC4xLCAxKVxuICAgICAgICAgICAgfSk7XG4gICAgICAgIH1cbiAgICBjZXJyYXIoKSB7XG4gICAgICAgIHRoaXMucGFyYW1zLmNsb3NlQ2FsbGJhY2sobnVsbCk7XG4gICAgfVxufVxuLy8gPDwgcGFzc2luZy1wYXJhbWV0ZXJzXG4iXX0=

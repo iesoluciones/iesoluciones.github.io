@@ -1,0 +1,7 @@
+<StackLayout #container style="background-color: #EEEEEE">
+
+    <page-router-outlet>
+        <ActivityIndicator [busy]="isLoading" [visibility]="isLoading ? 'visible' : 'collapse'" row="1" horizontalAlignment="center" verticalAlignment="center" style="height: 100%;"></ActivityIndicator>
+    </page-router-outlet>
+
+</StackLayout>

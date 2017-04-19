@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-google-maps-utils@^0.1.2",
+        "scope": null,
+        "escapedName": "nativescript-google-maps-utils",
+        "name": "nativescript-google-maps-utils",
+        "rawSpec": "^0.1.2",
+        "spec": ">=0.1.2 <0.2.0",
+        "type": "range"
+      },
+      "/Users/iedeveloper/NativeScriptProjects/Calzzapatotns"
+    ]
+  ],
+  "_from": "nativescript-google-maps-utils@>=0.1.2 <0.2.0",
+  "_id": "nativescript-google-maps-utils@0.1.2",
+  "_inCache": true,
+  "_location": "/nativescript-google-maps-utils",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-google-maps-utils-0.1.2.tgz_1478628880303_0.5656026110518724"
+  },
+  "_npmUser": {
+    "name": "naderio",
+    "email": "contact@nader.tn"
+  },
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-google-maps-utils@^0.1.2",
+    "scope": null,
+    "escapedName": "nativescript-google-maps-utils",
+    "name": "nativescript-google-maps-utils",
+    "rawSpec": "^0.1.2",
+    "spec": ">=0.1.2 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-google-maps-utils/-/nativescript-google-maps-utils-0.1.2.tgz",
+  "_shasum": "9ce448e2510b3fae040ef38a9772686bf1da37b2",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-google-maps-utils@^0.1.2",
+  "_where": "/Users/iedeveloper/NativeScriptProjects/Calzzapatotns",
+  "author": {
+    "name": "Nader Toukabri",
+    "email": "contact@nader.tn"
+  },
+  "bugs": {
+    "url": "https://github.com/naderio/nativescript-google-maps-utils/issues"
+  },
+  "dependencies": {
+    "nativescript-google-maps-sdk": "*"
+  },
+  "description": "NativeScript Google Maps SDK utility library to support features such as marker clustering, heatmap, ...",
+  "devDependencies": {
+    "tns-core-modules": "*",
+    "typescript": "^1.8.10"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9ce448e2510b3fae040ef38a9772686bf1da37b2",
+    "tarball": "https://registry.npmjs.org/nativescript-google-maps-utils/-/nativescript-google-maps-utils-0.1.2.tgz"
+  },
+  "gitHead": "fc3ab6629b02280ffdffbaadfcfcc9a7058c6a65",
+  "homepage": "https://github.com/naderio/nativescript-google-maps-utils#readme",
+  "keywords": [
+    "nativescript",
+    "google maps",
+    "marker cluster",
+    "heatmap"
+  ],
+  "license": "Unlicense",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "naderio",
+      "email": "contact@nader.tn"
+    }
+  ],
+  "name": "nativescript-google-maps-utils",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.0.0",
+      "android": "2.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naderio/nativescript-google-maps-utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.2"
+}
