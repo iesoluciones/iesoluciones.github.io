@@ -1,9 +1,0 @@
-<GridLayout rows="auto auto,auto,auto auto,auto, auto">
-   <Image src="~/assets/logo_calzzapato.png" stretch="aspectFit" horizontalAlignment="center" row="1"></Image>
-   <Label row="2" id="label1" fontSize="15" (tap)="onTap('label1')" text="Usuario" textWrap="true" style="margin:0px 0px 0px 15px"></Label>
-   <TextField keyboardType="email"  (tap)="onTap('label1')" fontSize="15" row="3" [(ngModel)]="user.email" autocorrect="true" autocapitalizationType="none"></TextField>
-   <Label row="4" id="label2" fontSize="15" (tap)="onTap('label2')" text="Contraseña" textWrap="true" style="margin:0px 0px 0px 15px;margin-top: 10;"></Label>
-   <TextField (tap)="onTap('label2')" fontSize="15" row="5"  text="" secure="true" [(ngModel)]="user.password" style="margin-top: 10;"></TextField>
-   <Button [text]="'Ingresar'" (tap)="login()" marginBottom="10%" row="6"></Button>
-   <Label text="Olvidé la Contraseña" horizontalAlignment="center" marginTop="10%" (tap)="recuperarPassword()" row="7" style="color:#EE2933"></Label>
-</GridLayout>
