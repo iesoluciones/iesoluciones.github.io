@@ -86,11 +86,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		WWl/DQrN2AJ26Qjg8NeAiXjX794=
+		pZwlkVYpqzFn28+SqTYulB6zujI=
 		</data>
 		<key>Frameworks/BEMCheckBox.framework/BEMCheckBox</key>
 		<data>
-		SDJshv+5wsbuNlzEwG3fikPca3A=
+		20gAUxvTbM0qjGvLfWgyN+RGzNU=
 		</data>
 		<key>Frameworks/BEMCheckBox.framework/Info.plist</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Frameworks/MNFloatingActionButton.framework/MNFloatingActionButton</key>
 		<data>
-		rR/T3SOjOBA+N7apz507O4qhm8c=
+		SI41rLXHL8ASMxbOPxTeWaz+vcw=
 		</data>
 		<key>Frameworks/MNFloatingActionButton.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -130,23 +130,11 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		uV/0VMkBniWsQLRX2etNWnW2g7M=
+		7H5Hzb6X5SmfkfAWkA72UwrrPkE=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
 		CqyUnSiomEFTQRT/eq/zY0qAFwQ=
-		</data>
-		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
-		<data>
-		FoPMhCdhevxlC+NOBmwXuweGh88=
-		</data>
-		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
-		<data>
-		YcgCCinf/jnqWZj5T62tT54llZA=
-		</data>
-		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
-		<data>
-		/FBm8nxgWLnwiavCNjKT53KAWdY=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/Info.plist</key>
 		<data>
@@ -154,7 +142,7 @@
 		</data>
 		<key>Frameworks/TNSWidgets.framework/TNSWidgets</key>
 		<data>
-		51eWgl1fPQ8jaw+RxZx0VeeSHO8=
+		x4MM2+yIadaFJeEu668BddCBwVY=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -166,7 +154,7 @@
 		</data>
 		<key>Frameworks/TelerikUI.framework/TelerikUI</key>
 		<data>
-		6d00csbTGq/jxhMmUEy2lh344Cg=
+		4oNYYjXZrLMZn5oZ+ZgfQ5dj75I=
 		</data>
 		<key>Frameworks/TelerikUI.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -853,7 +841,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		opT9Poa/7+eWIyok49Ds8DXuAHg=
+		e9ieE+1ARU73IOigIxXy8eZA3XE=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -905,7 +893,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		yMqfT1RjkuDl2FtCzn9K2LO4hzY=
+		VYn/qpfn+xQhMbC5Ds4lY2q0Kko=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -913,7 +901,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		f1vl9qWrT+ZpDlIWIdZh42fh/rM=
+		3yB7KHWc9oRMTILIp5GzR2NWLnI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -925,11 +913,7 @@
 		</data>
 		<key>app/app.component.js</key>
 		<data>
-		lkjJXLpOP1DNRTn4rRYf90VIh+U=
-		</data>
-		<key>app/app.component.ts</key>
-		<data>
-		yyqKqvO/D/gU4RFo5Hj8tu+cWLw=
+		c6B90+/qn4qIZ3vaAsZiExpNGDc=
 		</data>
 		<key>app/app.css</key>
 		<data>
@@ -937,19 +921,11 @@
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		8tiJkRAPEo1ViJQC301zo1+YiTM=
-		</data>
-		<key>app/app.module.ts</key>
-		<data>
-		/24Y+PKRZxhO1IS+JXMTgruKCP4=
+		j7DQit5Scq25m/+hgRE2xe//xdo=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
-		AAQ+oQMvTZtK5pEhS1xUMeQ9fKs=
-		</data>
-		<key>app/app.routing.ts</key>
-		<data>
-		qujddWfnIFWbLoXS7tdkujy3QO8=
+		a6Ta4Xy+qrNsmrUStpX+/WoL2ck=
 		</data>
 		<key>app/assets/camara.png</key>
 		<data>
@@ -1145,87 +1121,43 @@
 		</data>
 		<key>app/custom-http/custom-http.module.js</key>
 		<data>
-		CjbsKOCxVHnombT1MmZwwPR0VQY=
-		</data>
-		<key>app/custom-http/custom-http.module.ts</key>
-		<data>
-		qybr8roXEWXC1HMgXvlpxIgtHxM=
+		WuIS0a451NThBEBIgs21xmcbHHU=
 		</data>
 		<key>app/custom-http/http-service.js</key>
 		<data>
-		oyzIG73Iu7W0/ktEoWJbUHuBiX8=
-		</data>
-		<key>app/custom-http/http-service.ts</key>
-		<data>
-		yfUsS3pHHJ9VZxqy/Zm7MrR1kcc=
-		</data>
-		<key>app/main.aot.ts</key>
-		<data>
-		Jkf2idsU/7Z00DQ9N7oNu7PWZQE=
+		MB3uSGQOXsmHYr9MyWLDzBMNocM=
 		</data>
 		<key>app/main.js</key>
 		<data>
-		1k3jFhXq6ndidaM9A9+8KJIAJik=
-		</data>
-		<key>app/main.ts</key>
-		<data>
-		DaGlYp7kwkl1mxSx9EQNrPWUBVw=
+		Pw+zO+XZRjfNvY7jekmTB6K86Ag=
 		</data>
 		<key>app/model/cliente.model.js</key>
 		<data>
-		yV/b+stChs3ISIgQx0pYYbsenAA=
-		</data>
-		<key>app/model/cliente.model.ts</key>
-		<data>
-		4w/SUglK3g0HaSD20cah6liML5Q=
+		bypjUqxtT/7RKCIek9zGHo+JoAE=
 		</data>
 		<key>app/model/clientes_medios.model.js</key>
 		<data>
-		kKOLH82RBs+PvKPEubxd8hxJ6Xc=
-		</data>
-		<key>app/model/clientes_medios.model.ts</key>
-		<data>
-		NVMsOnBLAxu4/Qq/UHetKhNAjYk=
+		2LxSVJo6F8vK2JL3dfuk+s38MNc=
 		</data>
 		<key>app/model/db.module.js</key>
 		<data>
-		tZ2KsqpBN9v9ZKFrvrU7kikRZD8=
-		</data>
-		<key>app/model/db.module.ts</key>
-		<data>
-		ilZP6zmVCAUZ+7+kfrIJxgYxjXM=
+		zNVDivfADCv5GGvTiwlHiYkaDvQ=
 		</data>
 		<key>app/model/db.service.js</key>
 		<data>
-		RvVKpkLngpyJGm1QQ9JYcvbPP64=
-		</data>
-		<key>app/model/db.service.ts</key>
-		<data>
-		sTi3WJwOaMCO3NCHzRLCSB2AmLE=
+		V1DUS/pT5W0IcsA6Mjf3mrwuOTE=
 		</data>
 		<key>app/model/tipos_medio.model.js</key>
 		<data>
-		8/+eDoTEPBQo7N0J5pRf0Wvhhjk=
-		</data>
-		<key>app/model/tipos_medio.model.ts</key>
-		<data>
-		H5huYIMRROMebSUHSFelXd3KMT4=
+		w9sjatOwO+2jy8wR3Qj9hDe5p/s=
 		</data>
 		<key>app/model/user.model.js</key>
 		<data>
-		yKholdI0S8rRP81z7VHvT/+X7Jg=
-		</data>
-		<key>app/model/user.model.ts</key>
-		<data>
-		Exc3F8+il2MwRMJFG3MWC+1sg/U=
+		6nLWGl2BP/i1Hz+Jb01AoNQEP9o=
 		</data>
 		<key>app/model/venta.model.js</key>
 		<data>
-		GJofIZsqL7OEU0qXNBKtLCp0ha4=
-		</data>
-		<key>app/model/venta.model.ts</key>
-		<data>
-		xFAKrc9BocKYF3ZqiPr0/qx/1H0=
+		sp4P0RpUAwvu4EYNmNJRF1BjsJs=
 		</data>
 		<key>app/package.json</key>
 		<data>
@@ -1233,27 +1165,15 @@
 		</data>
 		<key>app/pages/cliente/cliente.class.js</key>
 		<data>
-		NPTAcudAVlWamaGJKEgXGIKOBHM=
-		</data>
-		<key>app/pages/cliente/cliente.class.ts</key>
-		<data>
-		6bRjyCPIEWQoMDKbJQfSgCElDO8=
+		ZLHpT4Fr2zzEuccASD4Z+9JtI5c=
 		</data>
 		<key>app/pages/cliente/cliente.module.js</key>
 		<data>
-		UCnNs8Y3mk1+Lc3NJZLGiU/YRwU=
-		</data>
-		<key>app/pages/cliente/cliente.module.ts</key>
-		<data>
-		IgZTPXQKSVdYS4IHhiQwyllCPQQ=
+		qPidFIccKNVvApRhU0I1/aDOexM=
 		</data>
 		<key>app/pages/cliente/cliente.service.js</key>
 		<data>
-		X52Sb35W/+T1w4AyNMtmev1BKrc=
-		</data>
-		<key>app/pages/cliente/cliente.service.ts</key>
-		<data>
-		rOSXWyg9ybvxifO/79+2ieqad1c=
+		7ZRz6Xm0VhENtvqEalANiqSDLUs=
 		</data>
 		<key>app/pages/cliente/css/cliente.css</key>
 		<data>
@@ -1261,11 +1181,7 @@
 		</data>
 		<key>app/pages/cliente/detalle/cliente-detalle.component.js</key>
 		<data>
-		6jpeMz6TnNqdcSndg6bFzzmAxTw=
-		</data>
-		<key>app/pages/cliente/detalle/cliente-detalle.component.ts</key>
-		<data>
-		WUqez5flsakZP43VVM5rzo3MSto=
+		zOhHXcQjjufPHMXcTXptApV7lMM=
 		</data>
 		<key>app/pages/cliente/detalle/cliente-detalle.css</key>
 		<data>
@@ -1281,11 +1197,7 @@
 		</data>
 		<key>app/pages/cliente/formulario/formulario.cliente.component.js</key>
 		<data>
-		jka7mjQmnuoitUDnhXFT+19EhjQ=
-		</data>
-		<key>app/pages/cliente/formulario/formulario.cliente.component.ts</key>
-		<data>
-		K+635SxR8IuPNTXRamCao7emrlA=
+		sRyDdRKPWq5ZdrppkjUH+souCQM=
 		</data>
 		<key>app/pages/cliente/listado/listado-cliente.html</key>
 		<data>
@@ -1293,19 +1205,11 @@
 		</data>
 		<key>app/pages/cliente/listado/listado.cliente.component.js</key>
 		<data>
-		RqPQA2KuhDBwKb8FuKSiQ9GJaao=
-		</data>
-		<key>app/pages/cliente/listado/listado.cliente.component.ts</key>
-		<data>
-		a8QtT1YtGFaRtCNf8iK9qXunz/g=
+		YBlg5towHTzWBJKXZBmDA1W4dlk=
 		</data>
 		<key>app/pages/corte/corte.component.js</key>
 		<data>
-		SKH12rZKL/Kw2wH60RIyqb52MMg=
-		</data>
-		<key>app/pages/corte/corte.component.ts</key>
-		<data>
-		HCPRPQ4RIiaVs4nq/QyjRHjVwHY=
+		ukvNnFVsFw/MJxSHzSjb6ZJJhEo=
 		</data>
 		<key>app/pages/corte/corte.css</key>
 		<data>
@@ -1317,27 +1221,15 @@
 		</data>
 		<key>app/pages/corte/corte.module.js</key>
 		<data>
-		7iAtrzg+ay1eXEFhIkPsqrIBK40=
-		</data>
-		<key>app/pages/corte/corte.module.ts</key>
-		<data>
-		a2neeGUp2KUm7aXn7Q0qAmRCjuo=
+		NlMJnRj001HQqZnydFxLEYFdh7E=
 		</data>
 		<key>app/pages/corte/corte.service.js</key>
 		<data>
-		2mtF/QVi6HMnB5Yrocg7NWJTUdI=
-		</data>
-		<key>app/pages/corte/corte.service.ts</key>
-		<data>
-		YCEfc+XJCeXXxht6uCSVvvH9ZcY=
+		hZ9ssL6XfEtYso7Jnzj3L5iKqWk=
 		</data>
 		<key>app/pages/corte/saldo-disponible/saldo-disponible.component.js</key>
 		<data>
-		CPwuIHYKn5FhAGILXvnZgMGZNOM=
-		</data>
-		<key>app/pages/corte/saldo-disponible/saldo-disponible.component.ts</key>
-		<data>
-		iUeaWyVtFftMnOPhzc8H20KynFA=
+		Q36AmF8s66vBSAdNutDegyAoH0A=
 		</data>
 		<key>app/pages/corte/saldo-disponible/saldo-disponible.css</key>
 		<data>
@@ -1353,11 +1245,7 @@
 		</data>
 		<key>app/pages/home/home.component.js</key>
 		<data>
-		QAeU+Ybii6G0wXkWRgxGrQwFC8M=
-		</data>
-		<key>app/pages/home/home.component.ts</key>
-		<data>
-		oRkE3CJThRb2Eh07k1CSMtJS7Qo=
+		zpi+m1NqUIgrIFHhpzGncLVB2rE=
 		</data>
 		<key>app/pages/inicio/inicio-common.css</key>
 		<data>
@@ -1369,11 +1257,7 @@
 		</data>
 		<key>app/pages/inicio/inicio.component.js</key>
 		<data>
-		RSlaVp4kx7IxsgDqm6M+qwvD4Qc=
-		</data>
-		<key>app/pages/inicio/inicio.component.ts</key>
-		<data>
-		2dK9xYvShw7dIAssYpNgEFBhGc8=
+		B5i+JaOCxqZm7wfcJQL46IhNRKg=
 		</data>
 		<key>app/pages/inicio/inicio.css</key>
 		<data>
@@ -1381,11 +1265,7 @@
 		</data>
 		<key>app/pages/inicio/inicio.service.js</key>
 		<data>
-		D4R6scRg965mUSQqDOBqmZ8+rAw=
-		</data>
-		<key>app/pages/inicio/inicio.service.ts</key>
-		<data>
-		YopjqNvdtdl0yi261j82zbVyPMc=
+		22pfu5ZOr3Lon1Mpp6ZpxdUtKOM=
 		</data>
 		<key>app/pages/login/login-common.css</key>
 		<data>
@@ -1393,11 +1273,7 @@
 		</data>
 		<key>app/pages/login/login.component.js</key>
 		<data>
-		wgFKh1BKB8wFpOF9VM+AhAHQMq4=
-		</data>
-		<key>app/pages/login/login.component.ts</key>
-		<data>
-		rve1YaZJGKqEzYWXZzJkMyUv68M=
+		OLK+8yepZeeYF1EfysODPnWug54=
 		</data>
 		<key>app/pages/login/login.css</key>
 		<data>
@@ -1409,19 +1285,11 @@
 		</data>
 		<key>app/pages/login/login.module.js</key>
 		<data>
-		qAxZT/aatVwiP4EXEQhcuygzAHw=
-		</data>
-		<key>app/pages/login/login.module.ts</key>
-		<data>
-		1b6iX4xD7dN3g4D9lTy1JgvZ+dI=
+		Q2Mno/f09QUVEzd+kZoCLC25rY8=
 		</data>
 		<key>app/pages/login/login.service.js</key>
 		<data>
-		auw5+KUQ6r+zjhZ0CuA2KtTrSyw=
-		</data>
-		<key>app/pages/login/login.service.ts</key>
-		<data>
-		I64sJWVw7D7G8TH5K5f/iIFpCR0=
+		P6U2Xc6V4mZp3CJySwYlXjVkSfw=
 		</data>
 		<key>app/pages/login/modal/modal-view.html</key>
 		<data>
@@ -1429,19 +1297,11 @@
 		</data>
 		<key>app/pages/login/modal/modal-view.js</key>
 		<data>
-		ukv439WmFGJ3zhTkTb3g5BBsAKs=
-		</data>
-		<key>app/pages/login/modal/modal-view.ts</key>
-		<data>
-		+nJTWGgNnsYUCG85vjQ/J/iimu8=
+		hF+RFfN6Pgqm8Mv6D2ngzcsZDsw=
 		</data>
 		<key>app/pages/login/user.class.js</key>
 		<data>
-		5gMF6dubOh17tTHkJsDFc6xaHf8=
-		</data>
-		<key>app/pages/login/user.class.ts</key>
-		<data>
-		fMpRyQEkwJdUumMcyeeqsrSod6A=
+		eXDcpH5Lj/IDRB4wvP1KTQILzU0=
 		</data>
 		<key>app/pages/micuenta/css/micuenta.css</key>
 		<data>
@@ -1449,11 +1309,7 @@
 		</data>
 		<key>app/pages/micuenta/micuenta.component.js</key>
 		<data>
-		jtG2YgNtJCmnwnQjTsy8XzmLBW4=
-		</data>
-		<key>app/pages/micuenta/micuenta.component.ts</key>
-		<data>
-		aAxgIDXmgh4LLoqTwCKGYr6APFo=
+		aovg1BqhfndcCXnvrZ9cEj7CTcc=
 		</data>
 		<key>app/pages/micuenta/micuenta.html</key>
 		<data>
@@ -1461,19 +1317,11 @@
 		</data>
 		<key>app/pages/micuenta/micuenta.module.js</key>
 		<data>
-		mzpEDb0ur2nf3kdGtqKMskRz7u4=
-		</data>
-		<key>app/pages/micuenta/micuenta.module.ts</key>
-		<data>
-		dsSPt4aCr8OwTGxTmmqvi8PyisY=
+		qVpp446MZcqyEjg1O9m2+NCQytw=
 		</data>
 		<key>app/pages/micuenta/micuenta.service.js</key>
 		<data>
-		fz4mUJrwJeVAuoxmb8fgASCMoxw=
-		</data>
-		<key>app/pages/micuenta/micuenta.service.ts</key>
-		<data>
-		spnRk/OU2TXBiQLZgIn0pFq+an8=
+		VGPpxLZhhRuSaWnniH9I7eE7cJc=
 		</data>
 		<key>app/pages/modals/datepicker/date-picker.html</key>
 		<data>
@@ -1481,11 +1329,7 @@
 		</data>
 		<key>app/pages/modals/datepicker/date-picker.js</key>
 		<data>
-		60ujBUVuU8uH+hHwoyEb92nKEiA=
-		</data>
-		<key>app/pages/modals/datepicker/date-picker.ts</key>
-		<data>
-		DtUZ8kCZVB5VhMGC67x+f417hPU=
+		9dX1jovsYidPLixWysxICBZsflw=
 		</data>
 		<key>app/pages/modals/mapa/css/mapa.css</key>
 		<data>
@@ -1497,11 +1341,7 @@
 		</data>
 		<key>app/pages/modals/mapa/mapa.component.js</key>
 		<data>
-		QHuaMOsVJDlrveWI5ZnZGyMhOTo=
-		</data>
-		<key>app/pages/modals/mapa/mapa.component.ts</key>
-		<data>
-		LJ2gb7dA3VABMIXM4aZGE7xtM8Q=
+		pWJxjWJpn+cdy6haO8Mo6B6MsL4=
 		</data>
 		<key>app/pages/modals/mapa/mapa.html</key>
 		<data>
@@ -1509,11 +1349,7 @@
 		</data>
 		<key>app/pages/modals/modal.module.js</key>
 		<data>
-		XugPzNn5/rM0d6gP/swm3+cMoyw=
-		</data>
-		<key>app/pages/modals/modal.module.ts</key>
-		<data>
-		zVSKQQBSHrfy8Uu8pPdHTWpTkwY=
+		vRkbQ39ZsIFJul9wiEmjvaDMhAA=
 		</data>
 		<key>app/pages/modals/recuperar/recuperar-common.css</key>
 		<data>
@@ -1525,11 +1361,7 @@
 		</data>
 		<key>app/pages/modals/recuperar/recuperar.js</key>
 		<data>
-		FqvbeBVllVMc92D5FZWaVO0h2qQ=
-		</data>
-		<key>app/pages/modals/recuperar/recuperar.ts</key>
-		<data>
-		aMGKVmPbdYlsr97Vt3N0I0MFNyE=
+		z+cOoIwODU37hJcPiM4GN8yBp84=
 		</data>
 		<key>app/pages/oficinacredito/css/oficinacredito.css</key>
 		<data>
@@ -1541,11 +1373,7 @@
 		</data>
 		<key>app/pages/oficinacredito/oficinacredito.component.js</key>
 		<data>
-		7WgFxjgfrm6mrqvwpDtSZNe6PLw=
-		</data>
-		<key>app/pages/oficinacredito/oficinacredito.component.ts</key>
-		<data>
-		aiyqUld0Sn/wYD1009TtLEfVFlE=
+		l4DKCx7/9byZDgaLNLmLWRig7jk=
 		</data>
 		<key>app/pages/oficinacredito/oficinacredito.html</key>
 		<data>
@@ -1553,19 +1381,11 @@
 		</data>
 		<key>app/pages/oficinacredito/oficinacredito.module.js</key>
 		<data>
-		dspYOIZBfW/d7HNPSHuYPB2oum4=
-		</data>
-		<key>app/pages/oficinacredito/oficinacredito.module.ts</key>
-		<data>
-		wPbUZHBQ78TvNS9olmndMTDMYBU=
+		CDvKPDVb/alqvygi3owlPWUB62M=
 		</data>
 		<key>app/pages/oficinacredito/oficinacredito.service.js</key>
 		<data>
-		noNwI1yZQpMTTVTovEbhEtMfx7M=
-		</data>
-		<key>app/pages/oficinacredito/oficinacredito.service.ts</key>
-		<data>
-		/UijYKVAhs9IWoO9KBa7hmjVoss=
+		bZNsTuYLOhTcMUYscfIwXiAbTjY=
 		</data>
 		<key>app/pages/referenciasbancarias/css/referenciabancaria.css</key>
 		<data>
@@ -1573,11 +1393,7 @@
 		</data>
 		<key>app/pages/referenciasbancarias/referenciabancaria.component.js</key>
 		<data>
-		dUU0mK4blxwCbbFv8VFpcr1CsxA=
-		</data>
-		<key>app/pages/referenciasbancarias/referenciabancaria.component.ts</key>
-		<data>
-		CiKeJRDJ7mZwSz5pB6IcTeDHtkI=
+		b9pzZdgW8vT3zfMua/QSTJN/GJ4=
 		</data>
 		<key>app/pages/referenciasbancarias/referenciabancaria.html</key>
 		<data>
@@ -1585,19 +1401,11 @@
 		</data>
 		<key>app/pages/referenciasbancarias/referenciabancaria.module.js</key>
 		<data>
-		dVcGVmD+M5QPDVLVb4K9f+B9R08=
-		</data>
-		<key>app/pages/referenciasbancarias/referenciabancaria.module.ts</key>
-		<data>
-		2SX+HyYRcQa6pAoNnD40TqPM3gI=
+		4V/k7tYJk12Cl3tXSMcoZ8pbhMg=
 		</data>
 		<key>app/pages/referenciasbancarias/referenciabancaria.service.js</key>
 		<data>
-		vIercEQYYsisq0DhCDJNqGaiV38=
-		</data>
-		<key>app/pages/referenciasbancarias/referenciabancaria.service.ts</key>
-		<data>
-		RIUMbMOfvm5dm7RkdnvJH/k7YX4=
+		ZGrA0mry4Q69sZvsBz8wxkniqqY=
 		</data>
 		<key>app/pages/vales/css/vale.css</key>
 		<data>
@@ -1609,35 +1417,19 @@
 		</data>
 		<key>app/pages/vales/listado/listado.vale.component.js</key>
 		<data>
-		pY8EOiKAIpzKesaN+uyF4/HLIZQ=
-		</data>
-		<key>app/pages/vales/listado/listado.vale.component.ts</key>
-		<data>
-		Rg4wP06f5vI4c4YZ+FiNaPVxKU4=
+		MMOT+CxJ/qBOJwFYkxhcFloqLto=
 		</data>
 		<key>app/pages/vales/vale.module.js</key>
 		<data>
-		0QclHGaTvGmciib3P6LTDaYpfMA=
-		</data>
-		<key>app/pages/vales/vale.module.ts</key>
-		<data>
-		hESEK1aYLW74S9/ev7MKS+ZY8gc=
+		ULxAHK3P5Lyzy/a1oYT3ocMJbh8=
 		</data>
 		<key>app/pages/vales/vale.service.js</key>
 		<data>
-		i2PK+UcXryKddIV+ItGU4GP1GwI=
-		</data>
-		<key>app/pages/vales/vale.service.ts</key>
-		<data>
-		1BlhQQpZ978Ilp7q63hVQ3TXu6I=
+		xmlgmH5XtS7vWMHyUPOspV6drY4=
 		</data>
 		<key>app/pages/venta/ticket/ticket.component.js</key>
 		<data>
-		dYuyjXoavtIAhIjmjAyo4lifnzk=
-		</data>
-		<key>app/pages/venta/ticket/ticket.component.ts</key>
-		<data>
-		EU3DEwTt80DkS7p0WH56jQTKQS4=
+		IFJTKHoPH5363Zm8tHACBGu3pjc=
 		</data>
 		<key>app/pages/venta/ticket/ticket.css</key>
 		<data>
@@ -1649,19 +1441,11 @@
 		</data>
 		<key>app/pages/venta/venta.class.js</key>
 		<data>
-		RgQFLeO6WbdZKRJ810dp9HV3nE4=
-		</data>
-		<key>app/pages/venta/venta.class.ts</key>
-		<data>
-		TshyI3AnBALcwtAZ6MYyzfAIXgs=
+		EEsn9XhY9XR/zTZ2jKbVlhsi8T4=
 		</data>
 		<key>app/pages/venta/venta.component.js</key>
 		<data>
-		U1p5XJ8P8Gfr/giWho6XTDTZpKw=
-		</data>
-		<key>app/pages/venta/venta.component.ts</key>
-		<data>
-		BHSDsU3gXkRrMEhK1hE2WeRjRq8=
+		myGLrcbC7ayKwoVeIgxxIkSC/ns=
 		</data>
 		<key>app/pages/venta/venta.css</key>
 		<data>
@@ -1673,51 +1457,27 @@
 		</data>
 		<key>app/pages/venta/venta.module.js</key>
 		<data>
-		JoeVBMtWcP0i6ISv5ZVseHSqPjA=
-		</data>
-		<key>app/pages/venta/venta.module.ts</key>
-		<data>
-		jzw5KktmETOQyXFvgcReMMuL9vY=
+		UYjSB10xUEzpsxxWU/SYzvGy6ek=
 		</data>
 		<key>app/pages/venta/venta.service.js</key>
 		<data>
-		evgTk3S9cdenw2sCXZ9AOYgmHKM=
-		</data>
-		<key>app/pages/venta/venta.service.ts</key>
-		<data>
-		akyLu7j+oMA/fYKX/efrst6sWMs=
+		GYxWt5PYI4BwANxQUuBUzNg+NLY=
 		</data>
 		<key>app/shared/config.js</key>
 		<data>
-		/TnOQLiZQoK5IyuduNcGyLQHTtI=
-		</data>
-		<key>app/shared/config.ts</key>
-		<data>
-		PWqEMyR9tTql9ybWy8o+F7oNpvQ=
+		CexpPeSpNr011vxaqiDCQ+rpLP0=
 		</data>
 		<key>app/shared/error-feedback/error-feedback.component.js</key>
 		<data>
-		bEldHvhlB8YxuuiS5z26GeTNV/s=
-		</data>
-		<key>app/shared/error-feedback/error-feedback.component.ts</key>
-		<data>
-		D1a0OC3Yp+S4Hnw0XYZtFCri3OQ=
+		0GXfNkJNi1xTSHf0e65spz8U8pI=
 		</data>
 		<key>app/shared/validators/CustomValidators.js</key>
 		<data>
-		ft27nKUfQoLAlsU8LbyaeRC/C9g=
-		</data>
-		<key>app/shared/validators/CustomValidators.ts</key>
-		<data>
-		hq740xDYo+VssOFiN/Y4H+eULjc=
+		1A9yPkaCWp94aui97cN+dYXa+Cg=
 		</data>
 		<key>app/shared/validators/equal-validator.directive.js</key>
 		<data>
-		GsTvgCUqXe2ud0wHToR1RexvIJM=
-		</data>
-		<key>app/shared/validators/equal-validator.directive.ts</key>
-		<data>
-		hoFME+tFExAz+i751CSAuOROJaE=
+		nbBfemOUytlWEdU2k+YzMUUrg50=
 		</data>
 		<key>app/tns_modules/@angular/common/README.md</key>
 		<data>
@@ -18283,6 +18043,10 @@
 		<data>
 		kYs7VOLTDjn6bdq/bPvQ3mIHVYs=
 		</data>
+		<key>build.xcconfig</key>
+		<data>
+		Y+ckRgoj8BCECoM/H3sFRpHmA/8=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		AGnLIvaYuKsVOSVtV48yHp3mcQE=
@@ -18543,22 +18307,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WWl/DQrN2AJ26Qjg8NeAiXjX794=
+			pZwlkVYpqzFn28+SqTYulB6zujI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ogrGW5ADKDC17Sf64HrehlvD45C3Tz+8hGsaaWVSc4E=
+			XelEa3p6/ddF+oKfU1kn15OQBQ/da8uSGvr7vDriYS0=
 			</data>
 		</dict>
 		<key>Frameworks/BEMCheckBox.framework/BEMCheckBox</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SDJshv+5wsbuNlzEwG3fikPca3A=
+			20gAUxvTbM0qjGvLfWgyN+RGzNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bl49A377g0ElsMyWdIM47W6W6v1eo+3pDVeeZzQRnfI=
+			7uL7UcpvPo1Dx1xLEqvxmwBxmKH0SjlxtV+AxDcLdz0=
 			</data>
 		</dict>
 		<key>Frameworks/BEMCheckBox.framework/Info.plist</key>
@@ -18598,11 +18362,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rR/T3SOjOBA+N7apz507O4qhm8c=
+			SI41rLXHL8ASMxbOPxTeWaz+vcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lszyh2EUGIpOiRldY1wv78sJa5kAOnIiNM93XdqtLVQ=
+			HqB5ui9pz8WMgQcTd+LUr3wVkNWyQG4TXKPJsTU5vs8=
 			</data>
 		</dict>
 		<key>Frameworks/MNFloatingActionButton.framework/_CodeSignature/CodeResources</key>
@@ -18664,11 +18428,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uV/0VMkBniWsQLRX2etNWnW2g7M=
+			7H5Hzb6X5SmfkfAWkA72UwrrPkE=
 			</data>
 			<key>hash2</key>
 			<data>
-			/IbsyEzRKh7e4L1t7RKhf7Fr8Q4cxMJGXgVhzmZKDSc=
+			IG7r8I8F1yJYI1LPN7HKdjaP8vl34g2U/MRPFrFM1DM=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -18680,39 +18444,6 @@
 			<key>hash2</key>
 			<data>
 			og39Fu5MS3lp9kyVXkh03bc1DJ0ZsW3NgdsgTy9UUmc=
-			</data>
-		</dict>
-		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FoPMhCdhevxlC+NOBmwXuweGh88=
-			</data>
-			<key>hash2</key>
-			<data>
-			XwhKjVXYitdAEybWe4hWqsiyszMPr8hbIYnrT/4u+eI=
-			</data>
-		</dict>
-		<key>Frameworks/TKLiveSync.framework/TKLiveSync</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YcgCCinf/jnqWZj5T62tT54llZA=
-			</data>
-			<key>hash2</key>
-			<data>
-			8YLNP/fZ+O7IQnYyp+QZcxSTw/Xi8FZDlIpOxUQNh4s=
-			</data>
-		</dict>
-		<key>Frameworks/TKLiveSync.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/FBm8nxgWLnwiavCNjKT53KAWdY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Hoqy/Crt9/2ziezuk7JTxb//+bq7tU5TVs8/b/Ooc5M=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/Info.plist</key>
@@ -18730,11 +18461,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			51eWgl1fPQ8jaw+RxZx0VeeSHO8=
+			x4MM2+yIadaFJeEu668BddCBwVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			23nyKva5FgsMM6LdBh5Ve+/RphDOvdVc0Iip+YkV3v4=
+			fwKZLF/Bs8EB/bdwSg9sbczRJdZlmO6eg+T/gVS6j1A=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
@@ -18763,11 +18494,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6d00csbTGq/jxhMmUEy2lh344Cg=
+			4oNYYjXZrLMZn5oZ+ZgfQ5dj75I=
 			</data>
 			<key>hash2</key>
 			<data>
-			UWX/TtimDQT/IeQMPXb35G+GNkMr1CowIuWmJu+u2II=
+			VeeBKm5kUcDmazpmuu6Msv7omXfXQgzi0P3irPFsJzo=
 			</data>
 		</dict>
 		<key>Frameworks/TelerikUI.framework/_CodeSignature/CodeResources</key>
@@ -20279,11 +20010,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yMqfT1RjkuDl2FtCzn9K2LO4hzY=
+			VYn/qpfn+xQhMbC5Ds4lY2q0Kko=
 			</data>
 			<key>hash2</key>
 			<data>
-			mdxwA3c2AATNfzdte+cAjtYNEpQVWR5pXI3OdrnOyIc=
+			HFBnOC1/LZqln65A4ujB7HHnJ347Xn7vPb5sMg6fqIU=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -20301,11 +20032,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f1vl9qWrT+ZpDlIWIdZh42fh/rM=
+			3yB7KHWc9oRMTILIp5GzR2NWLnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qsZdux+z07T7TLKBH2GCfvDOsPQOIJGl1A/siE0XdKI=
+			60wYSv6RrXl0ZMtMpk7wPyoY4uxKyi2Pt16LDSib7xM=
 			</data>
 		</dict>
 		<key>app/app.component.html</key>
@@ -20323,22 +20054,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lkjJXLpOP1DNRTn4rRYf90VIh+U=
+			c6B90+/qn4qIZ3vaAsZiExpNGDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lY+zzJ2FnKeSds2isHN9ep27Atb9ihGgBdPT8XgeXK4=
-			</data>
-		</dict>
-		<key>app/app.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yyqKqvO/D/gU4RFo5Hj8tu+cWLw=
-			</data>
-			<key>hash2</key>
-			<data>
-			6Mo+7dNrAjSXMAhKQBXvNvWUk50c+IvqQJ02/DKNZEs=
+			tqL5+IAPRSAit6BTmq3qyr0DhIbyj4mxJwMMb2NvikE=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -20356,44 +20076,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8tiJkRAPEo1ViJQC301zo1+YiTM=
+			j7DQit5Scq25m/+hgRE2xe//xdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			RagIr6AlPhK3Fsg3vZIt09enTkub0XUs6dd5fYzuSBY=
-			</data>
-		</dict>
-		<key>app/app.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/24Y+PKRZxhO1IS+JXMTgruKCP4=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q+4Oj5iUUKh5XnE1Ls6DDWlnhWLPSmU7XqtX6bkE8m4=
+			oCnDioOCJjkgXGQmCwKHiSZwW51RJsZg5PeBPzUaSAQ=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AAQ+oQMvTZtK5pEhS1xUMeQ9fKs=
+			a6Ta4Xy+qrNsmrUStpX+/WoL2ck=
 			</data>
 			<key>hash2</key>
 			<data>
-			k19LtGMyUWiNdWQWo2oj7ZcHDP8zGQKAh/lAEXmlW+8=
-			</data>
-		</dict>
-		<key>app/app.routing.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qujddWfnIFWbLoXS7tdkujy3QO8=
-			</data>
-			<key>hash2</key>
-			<data>
-			dAtjKKRkCji9+ewcYzDfu2Dn+Pi00fttLUHhYHe5eMY=
+			FKDYCt1nrCJCaiy4d6vvPNhwUSLdU+VJbh8Hcc/kV8U=
 			</data>
 		</dict>
 		<key>app/assets/camara.png</key>
@@ -20928,231 +20626,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CjbsKOCxVHnombT1MmZwwPR0VQY=
+			WuIS0a451NThBEBIgs21xmcbHHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			G3k/gZJSYmYvKXcZgN6+J1pXcUovmGh9w52TyOBtVbU=
-			</data>
-		</dict>
-		<key>app/custom-http/custom-http.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qybr8roXEWXC1HMgXvlpxIgtHxM=
-			</data>
-			<key>hash2</key>
-			<data>
-			qMVFbuFecJtIUZ4mxz91GSRnKLlrEV8PKgBHk+b3NE0=
+			/cenyrJACias4V4WdjqrA7N5f/kDJueFpZECqe5QvYs=
 			</data>
 		</dict>
 		<key>app/custom-http/http-service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oyzIG73Iu7W0/ktEoWJbUHuBiX8=
+			MB3uSGQOXsmHYr9MyWLDzBMNocM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9sFnfJpUO0wT5EMQtDbary38ScHGIXl0MvyJ4GdiT+0=
-			</data>
-		</dict>
-		<key>app/custom-http/http-service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yfUsS3pHHJ9VZxqy/Zm7MrR1kcc=
-			</data>
-			<key>hash2</key>
-			<data>
-			S0jWHjLZBTzrVW9WGS4jEayoGqzLnIl2IItvqd+HKz4=
-			</data>
-		</dict>
-		<key>app/main.aot.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jkf2idsU/7Z00DQ9N7oNu7PWZQE=
-			</data>
-			<key>hash2</key>
-			<data>
-			q/OSLQvwcd75HhOrwKctvlehIU4smwHC4/THCO98gB4=
+			xtfsTqVHaYqZR2KNU4GEzGmvL18CXsDbBS8auQJtjF4=
 			</data>
 		</dict>
 		<key>app/main.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1k3jFhXq6ndidaM9A9+8KJIAJik=
+			Pw+zO+XZRjfNvY7jekmTB6K86Ag=
 			</data>
 			<key>hash2</key>
 			<data>
-			yNgGzQKfM+OdL5NeL5idWGQ4RX9/htWmDPdPRjNpDpk=
-			</data>
-		</dict>
-		<key>app/main.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DaGlYp7kwkl1mxSx9EQNrPWUBVw=
-			</data>
-			<key>hash2</key>
-			<data>
-			o2AgaO6AXgtBs/waFRZFhY7XJZrp9bcEyBJu/x/5DoE=
+			ed905Ypu2LDuH9ix2KxwgjQ8F321HHYRMQF0K/xdoL0=
 			</data>
 		</dict>
 		<key>app/model/cliente.model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yV/b+stChs3ISIgQx0pYYbsenAA=
+			bypjUqxtT/7RKCIek9zGHo+JoAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			hSvKVObJrWioPEtQMPfRQrRyO00N9fL/Od3ZJgyowr4=
-			</data>
-		</dict>
-		<key>app/model/cliente.model.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4w/SUglK3g0HaSD20cah6liML5Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			XREnbt8u+CtLiFO1LSfX+Ig1Y7R3I6HLnWOh8emxU6I=
+			Y0UF4vNgcEB9wKuRiT15Z66F65cshn33jF/1yCUFrtQ=
 			</data>
 		</dict>
 		<key>app/model/clientes_medios.model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kKOLH82RBs+PvKPEubxd8hxJ6Xc=
+			2LxSVJo6F8vK2JL3dfuk+s38MNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			MKsIDE6F+u7YTU91VaxJnEIylANlmHoIkfpWWJ9N+PA=
-			</data>
-		</dict>
-		<key>app/model/clientes_medios.model.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NVMsOnBLAxu4/Qq/UHetKhNAjYk=
-			</data>
-			<key>hash2</key>
-			<data>
-			StpVojMvX8kRDaJhcPHnTvntQZR1SofG/VDMFQW+Wbc=
+			VTZFoDhBb5M1HnNIR5rxEPxZ08KtiMdHygTN89Jk7ww=
 			</data>
 		</dict>
 		<key>app/model/db.module.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tZ2KsqpBN9v9ZKFrvrU7kikRZD8=
+			zNVDivfADCv5GGvTiwlHiYkaDvQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			gaxSLhcUvaIJgnC7VJp1rL2h6P5Xlza4Dj4R9hcxIjU=
-			</data>
-		</dict>
-		<key>app/model/db.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ilZP6zmVCAUZ+7+kfrIJxgYxjXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			Zwfpi3vagiJxfhE5UWOREoK5qN4Aj3YV/+PVZ3UdstY=
+			nwO64mLtXb3dIsXcEJLo5uWXTE3ROHgb5AOR9jVnU3s=
 			</data>
 		</dict>
 		<key>app/model/db.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RvVKpkLngpyJGm1QQ9JYcvbPP64=
+			V1DUS/pT5W0IcsA6Mjf3mrwuOTE=
 			</data>
 			<key>hash2</key>
 			<data>
-			UjnJ1zFiuTrj8fwD/rQrAaSlB6NsUFCqWZO/4zOF4D8=
-			</data>
-		</dict>
-		<key>app/model/db.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sTi3WJwOaMCO3NCHzRLCSB2AmLE=
-			</data>
-			<key>hash2</key>
-			<data>
-			PRZWiv63DnBA7J5taubejWT3HSiad9q2mG/prJHPpk0=
+			IqMZybgjgAbCUxFZZsUlVA1hmB4q5olVxonIHVPk2w8=
 			</data>
 		</dict>
 		<key>app/model/tipos_medio.model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8/+eDoTEPBQo7N0J5pRf0Wvhhjk=
+			w9sjatOwO+2jy8wR3Qj9hDe5p/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			TmgbwQ/4qeqhOS4U8PqyOJGLv7KXkWahgEqimtMbrjc=
-			</data>
-		</dict>
-		<key>app/model/tipos_medio.model.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			H5huYIMRROMebSUHSFelXd3KMT4=
-			</data>
-			<key>hash2</key>
-			<data>
-			YX1W6bQPqc+xGT5vKJ9PO0ENssVeDZ3qTzWd5jOvAG4=
+			H115W6TuFjwpcYW13ps3dZ2G2OD8/yiR7i1Lm+ovPJ8=
 			</data>
 		</dict>
 		<key>app/model/user.model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yKholdI0S8rRP81z7VHvT/+X7Jg=
+			6nLWGl2BP/i1Hz+Jb01AoNQEP9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			jNLDkHmhUy3tU1an/HsoaDOuaqUXBHv+/xdP9c9jfUI=
-			</data>
-		</dict>
-		<key>app/model/user.model.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Exc3F8+il2MwRMJFG3MWC+1sg/U=
-			</data>
-			<key>hash2</key>
-			<data>
-			K8TA96Y/zk+YtBE+cJglgxcYHuuctNGjWNzwAMr5jeM=
+			RSSPxxwBLNFgSjf6eIh5Wl3b2GOUWb5ToJsq2nvjimg=
 			</data>
 		</dict>
 		<key>app/model/venta.model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GJofIZsqL7OEU0qXNBKtLCp0ha4=
+			sp4P0RpUAwvu4EYNmNJRF1BjsJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sqba8jRgLz4otVMTfqTdaBF1yJy+KLw00OBPYHGEAvA=
-			</data>
-		</dict>
-		<key>app/model/venta.model.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xFAKrc9BocKYF3ZqiPr0/qx/1H0=
-			</data>
-			<key>hash2</key>
-			<data>
-			LetvMVfcP8qgSu3pNyuOegTCtuUU9JxYngV6xnASjt4=
+			OBpFOBENcPsSs6kFP6ifEoQYpd95hsT1E3j4zTUElDA=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -21170,66 +20747,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NPTAcudAVlWamaGJKEgXGIKOBHM=
+			ZLHpT4Fr2zzEuccASD4Z+9JtI5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			3iPf/4cS0hoRKchM9is+FA8IrimZGdPY8UXLlzzCTRQ=
-			</data>
-		</dict>
-		<key>app/pages/cliente/cliente.class.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6bRjyCPIEWQoMDKbJQfSgCElDO8=
-			</data>
-			<key>hash2</key>
-			<data>
-			jpKmoTeJ8U1JjJgL6kVqCQn1oIPirtuKM7PcaOg9OHQ=
+			lJ+RI4vshFIpwNCzZAEtzdNyqwU9acZd+ZEx02EKW5g=
 			</data>
 		</dict>
 		<key>app/pages/cliente/cliente.module.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UCnNs8Y3mk1+Lc3NJZLGiU/YRwU=
+			qPidFIccKNVvApRhU0I1/aDOexM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/fKqqGrQzZax6vZJnOMxF8S/H5S709J60IoUqKFFBgU=
-			</data>
-		</dict>
-		<key>app/pages/cliente/cliente.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IgZTPXQKSVdYS4IHhiQwyllCPQQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			QyIhLJ2rjTyCjTGuJ0X75MR1fyWdH3C8M5n3UwpS3ZM=
+			CSJca2mwFijAftk+pr63ltzwlAzBJa42ZohBPQn55Q4=
 			</data>
 		</dict>
 		<key>app/pages/cliente/cliente.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X52Sb35W/+T1w4AyNMtmev1BKrc=
+			7ZRz6Xm0VhENtvqEalANiqSDLUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z2AWlCuglZAmwjniya2xNFyuH+6PUuzw17H1C6PPAik=
-			</data>
-		</dict>
-		<key>app/pages/cliente/cliente.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rOSXWyg9ybvxifO/79+2ieqad1c=
-			</data>
-			<key>hash2</key>
-			<data>
-			rB9ua13vm8mz9kblZ37KuAU2UfKNGA9SXDPeUupWozc=
+			sOZ69ZLdhRoM6Qz5mS5athLfYmBxSy/KjFiG2fm6HdY=
 			</data>
 		</dict>
 		<key>app/pages/cliente/css/cliente.css</key>
@@ -21247,22 +20791,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6jpeMz6TnNqdcSndg6bFzzmAxTw=
+			zOhHXcQjjufPHMXcTXptApV7lMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			hDlgPjmEu8O3aSQti2qanN7rWabj8fj+zLOdST+g4M4=
-			</data>
-		</dict>
-		<key>app/pages/cliente/detalle/cliente-detalle.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WUqez5flsakZP43VVM5rzo3MSto=
-			</data>
-			<key>hash2</key>
-			<data>
-			XoZLFbOx9OAw6XeQIFbVpsEnIytSj4ezagvHvvjXT2c=
+			xAgXWoAtnE/wsZJHYEjxhOGW3lNw4vjaEZhAf6oqHnw=
 			</data>
 		</dict>
 		<key>app/pages/cliente/detalle/cliente-detalle.css</key>
@@ -21302,22 +20835,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jka7mjQmnuoitUDnhXFT+19EhjQ=
+			sRyDdRKPWq5ZdrppkjUH+souCQM=
 			</data>
 			<key>hash2</key>
 			<data>
-			l4J8VYrrcnaMAx9ZHpj7sADsQnSUKT4FQYdv5SstWsA=
-			</data>
-		</dict>
-		<key>app/pages/cliente/formulario/formulario.cliente.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K+635SxR8IuPNTXRamCao7emrlA=
-			</data>
-			<key>hash2</key>
-			<data>
-			XUzINpzXpsohr67u7lvRGAeki3Ack+F/30mX/a6sMYo=
+			1gfM1QZymTQoVaO/SYlbFgUi2bb80LGN6/eLJ/f9f8g=
 			</data>
 		</dict>
 		<key>app/pages/cliente/listado/listado-cliente.html</key>
@@ -21335,44 +20857,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RqPQA2KuhDBwKb8FuKSiQ9GJaao=
+			YBlg5towHTzWBJKXZBmDA1W4dlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Xt/pw5gmC6d9Y8LiRKexE8rnDQwEHc+ENc3/KtXFU4=
-			</data>
-		</dict>
-		<key>app/pages/cliente/listado/listado.cliente.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a8QtT1YtGFaRtCNf8iK9qXunz/g=
-			</data>
-			<key>hash2</key>
-			<data>
-			jsT7rX+ExEh++cYakmVealZXrXrhwjOlaeeZY3uJLik=
+			WAQbS0FIA/Bbw3oufrIBWEwTOXVX8gj1UTqpIF0V7QQ=
 			</data>
 		</dict>
 		<key>app/pages/corte/corte.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SKH12rZKL/Kw2wH60RIyqb52MMg=
+			ukvNnFVsFw/MJxSHzSjb6ZJJhEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			PaKDHIIftyaSAt1F0j9cR+NmVbCxAhWAEheILwBSNc0=
-			</data>
-		</dict>
-		<key>app/pages/corte/corte.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HCPRPQ4RIiaVs4nq/QyjRHjVwHY=
-			</data>
-			<key>hash2</key>
-			<data>
-			k6aRX9+81+KX3nPuIqZ9JGSYVyFh7hAa7BdZvJLzIvw=
+			nj/8xr/JLf2lz2xogMb7K2w287fE2hdqOkE50C1BFac=
 			</data>
 		</dict>
 		<key>app/pages/corte/corte.css</key>
@@ -21401,66 +20901,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7iAtrzg+ay1eXEFhIkPsqrIBK40=
+			NlMJnRj001HQqZnydFxLEYFdh7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			9n77c4u+TCehnC0kjsf7gaslbfsMm2RKhVsdO83eZYo=
-			</data>
-		</dict>
-		<key>app/pages/corte/corte.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a2neeGUp2KUm7aXn7Q0qAmRCjuo=
-			</data>
-			<key>hash2</key>
-			<data>
-			u6y8ZDkUG3+mDSSwkgReaDCDwNmYmn6LlaQxVrs+quI=
+			2/BaeEUOxKnHzE4FiU8D40DoT0NtdVT+3Wia+jj64vs=
 			</data>
 		</dict>
 		<key>app/pages/corte/corte.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2mtF/QVi6HMnB5Yrocg7NWJTUdI=
+			hZ9ssL6XfEtYso7Jnzj3L5iKqWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			zDVaADUAJrqpUp7SCe+DNQMLbZht3vkO2wSMCd7aMdg=
-			</data>
-		</dict>
-		<key>app/pages/corte/corte.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YCEfc+XJCeXXxht6uCSVvvH9ZcY=
-			</data>
-			<key>hash2</key>
-			<data>
-			eAGBbg4u9sxoMSu50JbpU8INuX2xraOOzQDwHtE9Ut4=
+			eTpBDpto3rdsoux2YCJy6OLRb6CtbpGWfydGHbkeXIM=
 			</data>
 		</dict>
 		<key>app/pages/corte/saldo-disponible/saldo-disponible.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CPwuIHYKn5FhAGILXvnZgMGZNOM=
+			Q36AmF8s66vBSAdNutDegyAoH0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			a4XOOjnC7ZXG4xGQ5IZgwHNDs1Oz0OTTxjuhRq0k7rU=
-			</data>
-		</dict>
-		<key>app/pages/corte/saldo-disponible/saldo-disponible.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iUeaWyVtFftMnOPhzc8H20KynFA=
-			</data>
-			<key>hash2</key>
-			<data>
-			50quO5sCZmvZtlSjdcyOlNYTn+9aBweRbRnXmv2m7z4=
+			+97ru2CAkTYlpts3UV59VEM5iJuwcxXP+yl7j5voNxM=
 			</data>
 		</dict>
 		<key>app/pages/corte/saldo-disponible/saldo-disponible.css</key>
@@ -21500,22 +20967,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QAeU+Ybii6G0wXkWRgxGrQwFC8M=
+			zpi+m1NqUIgrIFHhpzGncLVB2rE=
 			</data>
 			<key>hash2</key>
 			<data>
-			pW8JCSlwo91h/dcTlS2k5yAYV47ZYQoD2x5EOHjzVIk=
-			</data>
-		</dict>
-		<key>app/pages/home/home.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oRkE3CJThRb2Eh07k1CSMtJS7Qo=
-			</data>
-			<key>hash2</key>
-			<data>
-			CqEgMXPbJYa91QhAQDyxG1sYA/dpTwGeETNwTlidEwQ=
+			mOSXyFXsfOklpdMhzapC5EdsbFUmpl8qBQak4YihpF8=
 			</data>
 		</dict>
 		<key>app/pages/inicio/inicio-common.css</key>
@@ -21544,22 +21000,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RSlaVp4kx7IxsgDqm6M+qwvD4Qc=
+			B5i+JaOCxqZm7wfcJQL46IhNRKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			igMWmmwa46CWcJblpiOzJ+zh2kMFe8QYNNq548tcslE=
-			</data>
-		</dict>
-		<key>app/pages/inicio/inicio.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2dK9xYvShw7dIAssYpNgEFBhGc8=
-			</data>
-			<key>hash2</key>
-			<data>
-			T6atWCoKk2r3vr8gCBhZstJngmdf5i+Fw2FncfgGtps=
+			4k/ZqPTYi9sIqwNEWcl49e/LQM0Scrb7jxP64kM2jUU=
 			</data>
 		</dict>
 		<key>app/pages/inicio/inicio.css</key>
@@ -21577,22 +21022,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D4R6scRg965mUSQqDOBqmZ8+rAw=
+			22pfu5ZOr3Lon1Mpp6ZpxdUtKOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xABa1DOA0+QwcvPUkqkJ7+pZJE5PNyTg7YdsB6ej5LE=
-			</data>
-		</dict>
-		<key>app/pages/inicio/inicio.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YopjqNvdtdl0yi261j82zbVyPMc=
-			</data>
-			<key>hash2</key>
-			<data>
-			16iML5EvT3FZpcU2aIxkKNV/taA58mes4rvVk1+gMOA=
+			ioOby+ELDFPqLFYjUR0W+qwEPxzhRmOnzyt8PEM/CB0=
 			</data>
 		</dict>
 		<key>app/pages/login/login-common.css</key>
@@ -21610,22 +21044,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wgFKh1BKB8wFpOF9VM+AhAHQMq4=
+			OLK+8yepZeeYF1EfysODPnWug54=
 			</data>
 			<key>hash2</key>
 			<data>
-			jNilm+cgIWCNlY2EwRgIa2mXZDE4lSOG6i9VwZR/ZZA=
-			</data>
-		</dict>
-		<key>app/pages/login/login.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rve1YaZJGKqEzYWXZzJkMyUv68M=
-			</data>
-			<key>hash2</key>
-			<data>
-			v4BGl8MnyZh+EVeAr0PO0rH2pYfXQL/Md3gw810ki24=
+			NzYgehBhB9Xa0f3a7TLIDqukDm1FBEcq8c5c0msBwbs=
 			</data>
 		</dict>
 		<key>app/pages/login/login.css</key>
@@ -21654,44 +21077,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qAxZT/aatVwiP4EXEQhcuygzAHw=
+			Q2Mno/f09QUVEzd+kZoCLC25rY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OT43dAh7nG63w/7ZwGhGogmT876VMrJTKnGyNKG1Bg0=
-			</data>
-		</dict>
-		<key>app/pages/login/login.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1b6iX4xD7dN3g4D9lTy1JgvZ+dI=
-			</data>
-			<key>hash2</key>
-			<data>
-			SLFAyTlsOPqwXSEuQRpJ5CreDx/F0rOSHIQ1cGmPsuI=
+			VLP6mc7aahXuBYectRlpIrS4G0EHElRdraCn+qtotYo=
 			</data>
 		</dict>
 		<key>app/pages/login/login.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			auw5+KUQ6r+zjhZ0CuA2KtTrSyw=
+			P6U2Xc6V4mZp3CJySwYlXjVkSfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			NeIbTtpIXQjsbAhg8MQSDgfa1092XTX5NN4dxYniTQc=
-			</data>
-		</dict>
-		<key>app/pages/login/login.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I64sJWVw7D7G8TH5K5f/iIFpCR0=
-			</data>
-			<key>hash2</key>
-			<data>
-			qLo9aJj+s93KOKWZO9jxVIfZKN+WrrsWvEp/tFuZzPA=
+			d8akdIWA3sCl8bfXki3Vkupy101i4VR+LRb+Hf5Bpsk=
 			</data>
 		</dict>
 		<key>app/pages/login/modal/modal-view.html</key>
@@ -21709,44 +21110,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ukv439WmFGJ3zhTkTb3g5BBsAKs=
+			hF+RFfN6Pgqm8Mv6D2ngzcsZDsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			MAsV0RgM0RFP7AVGD3BBvDW71fOFppeoHPx1uBYYEw0=
-			</data>
-		</dict>
-		<key>app/pages/login/modal/modal-view.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+nJTWGgNnsYUCG85vjQ/J/iimu8=
-			</data>
-			<key>hash2</key>
-			<data>
-			4mvghUzyDCHvCbF9o23UxnPc3quvrJv4QgvloG2Au3k=
+			knk3zd2Dyv36Vkq57Z0iA+HIInO6MC3DPvF3AP31GWo=
 			</data>
 		</dict>
 		<key>app/pages/login/user.class.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5gMF6dubOh17tTHkJsDFc6xaHf8=
+			eXDcpH5Lj/IDRB4wvP1KTQILzU0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubn/AIR1O6G1ZafeWdUm4expxN4eFR3xbe3jVP22078=
-			</data>
-		</dict>
-		<key>app/pages/login/user.class.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fMpRyQEkwJdUumMcyeeqsrSod6A=
-			</data>
-			<key>hash2</key>
-			<data>
-			34mpv4PL9WVLTfGc80vih+s2Cnvc6Xvr4KQ9tcROLFY=
+			QgZaDdKm2lXALDKqZy68nGDB+iahUWa9gZFj8uITgG4=
 			</data>
 		</dict>
 		<key>app/pages/micuenta/css/micuenta.css</key>
@@ -21764,22 +21143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jtG2YgNtJCmnwnQjTsy8XzmLBW4=
+			aovg1BqhfndcCXnvrZ9cEj7CTcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HrIUYLdqdAJgDyQR9DuS2x/4sYYdigyF62/FYUgk3VY=
-			</data>
-		</dict>
-		<key>app/pages/micuenta/micuenta.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aAxgIDXmgh4LLoqTwCKGYr6APFo=
-			</data>
-			<key>hash2</key>
-			<data>
-			OEGRuTBqPyUZJ/KHQnczYYs9Vdcbx1Yw5z1dRLkRBW4=
+			KIiMxHbj6vUnksSeKCKCZ+xuQ3M9PvatACitLjII4b0=
 			</data>
 		</dict>
 		<key>app/pages/micuenta/micuenta.html</key>
@@ -21797,44 +21165,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mzpEDb0ur2nf3kdGtqKMskRz7u4=
+			qVpp446MZcqyEjg1O9m2+NCQytw=
 			</data>
 			<key>hash2</key>
 			<data>
-			micOyztJBt2oz9uLuOUuQtldqC29WaiuBH7W0+OV8Lc=
-			</data>
-		</dict>
-		<key>app/pages/micuenta/micuenta.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dsSPt4aCr8OwTGxTmmqvi8PyisY=
-			</data>
-			<key>hash2</key>
-			<data>
-			6GGqErzOyNhArL+3FraOhvD+DBvNdx4th0yN8LzcNZw=
+			q7J6RqVarp1G2Ex9ItTs52DN8/3dYj/27/3tTzCbgdA=
 			</data>
 		</dict>
 		<key>app/pages/micuenta/micuenta.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fz4mUJrwJeVAuoxmb8fgASCMoxw=
+			VGPpxLZhhRuSaWnniH9I7eE7cJc=
 			</data>
 			<key>hash2</key>
 			<data>
-			bO7f5nKHyTJFBorHM1V1XKacbrdmasJHAOp+KJjiJCE=
-			</data>
-		</dict>
-		<key>app/pages/micuenta/micuenta.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			spnRk/OU2TXBiQLZgIn0pFq+an8=
-			</data>
-			<key>hash2</key>
-			<data>
-			xWP1dLDYnFaUT05jDggfTnvNk9uyjwCXbhxnJ+8N794=
+			bxpTvjABIidapaLrCk4ZmcNErYOxm4d6zkonrvrs15c=
 			</data>
 		</dict>
 		<key>app/pages/modals/datepicker/date-picker.html</key>
@@ -21852,22 +21198,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			60ujBUVuU8uH+hHwoyEb92nKEiA=
+			9dX1jovsYidPLixWysxICBZsflw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RuCoo/AHWpHrJmft3E+jdN/qRi4Fzd0NDiMIrKDCXnE=
-			</data>
-		</dict>
-		<key>app/pages/modals/datepicker/date-picker.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DtUZ8kCZVB5VhMGC67x+f417hPU=
-			</data>
-			<key>hash2</key>
-			<data>
-			9SxCwb69APnbgVxBYRwGdylg/gIAp51T1itehkDXwOg=
+			TKfCdVtGPr6CdrwqLhyvJr7v0nb72rieyLaUxk6cJ5U=
 			</data>
 		</dict>
 		<key>app/pages/modals/mapa/css/mapa.css</key>
@@ -21896,22 +21231,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QHuaMOsVJDlrveWI5ZnZGyMhOTo=
+			pWJxjWJpn+cdy6haO8Mo6B6MsL4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xxF1B6QS6oCO4wGFRnXjYg5YHGgxw8tXPJm9uUXU4o0=
-			</data>
-		</dict>
-		<key>app/pages/modals/mapa/mapa.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LJ2gb7dA3VABMIXM4aZGE7xtM8Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			KRVzTC3xlrj/hneFa1YjPejHf9Ts4/Up80e4E+EBoLg=
+			QC8Gb070taVNDyFSd5s27G+LDgViNR6NyHjq61YABxA=
 			</data>
 		</dict>
 		<key>app/pages/modals/mapa/mapa.html</key>
@@ -21929,22 +21253,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XugPzNn5/rM0d6gP/swm3+cMoyw=
+			vRkbQ39ZsIFJul9wiEmjvaDMhAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			498VlcGAqqLt2kVWzV7XzcS/VE1u+BlrrDXEygaCMZY=
-			</data>
-		</dict>
-		<key>app/pages/modals/modal.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zVSKQQBSHrfy8Uu8pPdHTWpTkwY=
-			</data>
-			<key>hash2</key>
-			<data>
-			B+AqasH8Kk2aVw4XJR1lQizTOcLNnoKl1ItVJnWkmSY=
+			PwhuBv7LGui7IUdcQAMckRRWfUKiR2Z09icmFgXDMpQ=
 			</data>
 		</dict>
 		<key>app/pages/modals/recuperar/recuperar-common.css</key>
@@ -21973,22 +21286,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FqvbeBVllVMc92D5FZWaVO0h2qQ=
+			z+cOoIwODU37hJcPiM4GN8yBp84=
 			</data>
 			<key>hash2</key>
 			<data>
-			qupBSGlbRCdX8zuTFSVy596FWiclxn4B5ZCmBfjrmR0=
-			</data>
-		</dict>
-		<key>app/pages/modals/recuperar/recuperar.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aMGKVmPbdYlsr97Vt3N0I0MFNyE=
-			</data>
-			<key>hash2</key>
-			<data>
-			/Rv9bZ7i5ve+evu1H5Be/D6q2I6FmMvrr/L9Zjtr44U=
+			bIbX6slAy9tZagbpVnqFlc+5FGe5blLxu33tFu/GOgo=
 			</data>
 		</dict>
 		<key>app/pages/oficinacredito/css/oficinacredito.css</key>
@@ -22017,22 +21319,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7WgFxjgfrm6mrqvwpDtSZNe6PLw=
+			l4DKCx7/9byZDgaLNLmLWRig7jk=
 			</data>
 			<key>hash2</key>
 			<data>
-			VBdwyl3Sz/M5UrofzF67ZUgkD93S7AQnVzo1pqMiDvw=
-			</data>
-		</dict>
-		<key>app/pages/oficinacredito/oficinacredito.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aiyqUld0Sn/wYD1009TtLEfVFlE=
-			</data>
-			<key>hash2</key>
-			<data>
-			QCxoYrRurzUHYDBT58yuD0HSpoKfA5ikRegG++k86tM=
+			TOxkNKwdYK3Ow/wk1/i691OnLPv9pFsC/g3HzwoQAig=
 			</data>
 		</dict>
 		<key>app/pages/oficinacredito/oficinacredito.html</key>
@@ -22050,44 +21341,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dspYOIZBfW/d7HNPSHuYPB2oum4=
+			CDvKPDVb/alqvygi3owlPWUB62M=
 			</data>
 			<key>hash2</key>
 			<data>
-			ltENwRE4nIWKaWEtgtN/Z54lf5NDHe1JaDajoPNWBqk=
-			</data>
-		</dict>
-		<key>app/pages/oficinacredito/oficinacredito.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wPbUZHBQ78TvNS9olmndMTDMYBU=
-			</data>
-			<key>hash2</key>
-			<data>
-			nhO3vWnIDxYWQ7SthV+V4nBIH8q0NfZ1ZH2rhASbe3g=
+			qyP6/dtzWcfX43ZPc+C4V1fUsylKf5ctkBM/Ttm3WU8=
 			</data>
 		</dict>
 		<key>app/pages/oficinacredito/oficinacredito.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			noNwI1yZQpMTTVTovEbhEtMfx7M=
+			bZNsTuYLOhTcMUYscfIwXiAbTjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			A0NTor5gQwE55XaXRoDC71/dktnLqFpNZCPvPc+DZaE=
-			</data>
-		</dict>
-		<key>app/pages/oficinacredito/oficinacredito.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/UijYKVAhs9IWoO9KBa7hmjVoss=
-			</data>
-			<key>hash2</key>
-			<data>
-			gHrZby4HKlrBZS0j0+gIn1XXqqEgGaRtr+Ak8ICzX7o=
+			Ldppvft1LrIuxMr5l6MXfb9+cnwAjjxGXNXULBnrRLA=
 			</data>
 		</dict>
 		<key>app/pages/referenciasbancarias/css/referenciabancaria.css</key>
@@ -22105,22 +21374,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dUU0mK4blxwCbbFv8VFpcr1CsxA=
+			b9pzZdgW8vT3zfMua/QSTJN/GJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			HTqo2RqbXaBQtHxvjhwyy6kz3D6+Ci+m+mkXhhZUItY=
-			</data>
-		</dict>
-		<key>app/pages/referenciasbancarias/referenciabancaria.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CiKeJRDJ7mZwSz5pB6IcTeDHtkI=
-			</data>
-			<key>hash2</key>
-			<data>
-			KfSpVy0vU7wJ0U5x9YphUNKAVZuAO3M3QkmBPHyzeX4=
+			VF2DmFMdOPeMoCneXaN+QPk7ohU30fpQb6GDRFSTovc=
 			</data>
 		</dict>
 		<key>app/pages/referenciasbancarias/referenciabancaria.html</key>
@@ -22138,44 +21396,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dVcGVmD+M5QPDVLVb4K9f+B9R08=
+			4V/k7tYJk12Cl3tXSMcoZ8pbhMg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z2oMAproU3qHn0/Bx8UtpncI5C4FEWbtG1/CvULp/RU=
-			</data>
-		</dict>
-		<key>app/pages/referenciasbancarias/referenciabancaria.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2SX+HyYRcQa6pAoNnD40TqPM3gI=
-			</data>
-			<key>hash2</key>
-			<data>
-			aXY2WaSNmUdhRLXv8I+YICeyFx3kJ/e97W87ojqO2xE=
+			+UOaeFfqWSpTX2P+Vw2OIbiOV+ZQYWW3oZT6OxrFBNM=
 			</data>
 		</dict>
 		<key>app/pages/referenciasbancarias/referenciabancaria.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vIercEQYYsisq0DhCDJNqGaiV38=
+			ZGrA0mry4Q69sZvsBz8wxkniqqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			HwPOH8ygGakfx0flUxxpo6170Fr+Z0eGCMrk/wa2Vqw=
-			</data>
-		</dict>
-		<key>app/pages/referenciasbancarias/referenciabancaria.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RIUMbMOfvm5dm7RkdnvJH/k7YX4=
-			</data>
-			<key>hash2</key>
-			<data>
-			lItc+8GuLYd0v09Opj8ILlvOktA9Ppge+cn7HxpKCB4=
+			015WGe6DhQHEK5c4+qLwok8thgp3sDCflZyLwyKAWzY=
 			</data>
 		</dict>
 		<key>app/pages/vales/css/vale.css</key>
@@ -22204,88 +21440,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pY8EOiKAIpzKesaN+uyF4/HLIZQ=
+			MMOT+CxJ/qBOJwFYkxhcFloqLto=
 			</data>
 			<key>hash2</key>
 			<data>
-			V39But54Y+Ts37NXMTqIWcIUqcF6djG5WzVos7XI8mQ=
-			</data>
-		</dict>
-		<key>app/pages/vales/listado/listado.vale.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Rg4wP06f5vI4c4YZ+FiNaPVxKU4=
-			</data>
-			<key>hash2</key>
-			<data>
-			OG/QYPuTj3Dq0rpcHT3X4m8xa2bvCxwNZkRWlbL6Nbs=
+			u5b7P73L+tt9rcXDTc9x8Ku8S+qHBm7JuA2Z5P+F9Cg=
 			</data>
 		</dict>
 		<key>app/pages/vales/vale.module.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0QclHGaTvGmciib3P6LTDaYpfMA=
+			ULxAHK3P5Lyzy/a1oYT3ocMJbh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			7/w4vOqmpXEsH707t0M+ZTKNe6/ZFcGSSFnGLncQC/Y=
-			</data>
-		</dict>
-		<key>app/pages/vales/vale.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hESEK1aYLW74S9/ev7MKS+ZY8gc=
-			</data>
-			<key>hash2</key>
-			<data>
-			HbiNR31ZVJiu3aIYmSu2IMaa+AcRGBdtzS1Bad8aPB4=
+			aKuyIjIFGp5bVahgFGqJojGUQDkwVs++04NH5vyiVoQ=
 			</data>
 		</dict>
 		<key>app/pages/vales/vale.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i2PK+UcXryKddIV+ItGU4GP1GwI=
+			xmlgmH5XtS7vWMHyUPOspV6drY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vMXtqb6frkpW07PsviIDTI1qkE1wV2/3PFWUZGk80zU=
-			</data>
-		</dict>
-		<key>app/pages/vales/vale.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1BlhQQpZ978Ilp7q63hVQ3TXu6I=
-			</data>
-			<key>hash2</key>
-			<data>
-			0i6gEnRAwG+WypgIdfJAMUW5W3jYDle5W1GIJQBihxA=
+			kmlHnMMZEPfCunVGGlMnrX+PZ4411H6CKTHt45LRtSY=
 			</data>
 		</dict>
 		<key>app/pages/venta/ticket/ticket.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dYuyjXoavtIAhIjmjAyo4lifnzk=
+			IFJTKHoPH5363Zm8tHACBGu3pjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			2kKcBXqngCNGzL1Lqsa+BIkJXAiwd/OrFbz/rwLgvNg=
-			</data>
-		</dict>
-		<key>app/pages/venta/ticket/ticket.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EU3DEwTt80DkS7p0WH56jQTKQS4=
-			</data>
-			<key>hash2</key>
-			<data>
-			Y/I/jKiANX4ngfzn8Wt+Jg/2GyySJs4PznBipBQyn/Y=
+			xVSz6EZosnj699whf96wsp/MJ0Cvd5Ol1XOpSbpT9qo=
 			</data>
 		</dict>
 		<key>app/pages/venta/ticket/ticket.css</key>
@@ -22314,44 +21506,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RgQFLeO6WbdZKRJ810dp9HV3nE4=
+			EEsn9XhY9XR/zTZ2jKbVlhsi8T4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gM8/91tQE+nVJRVg5aLAiu7+Ufd+ER8ovhpXwKk5Dnc=
-			</data>
-		</dict>
-		<key>app/pages/venta/venta.class.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TshyI3AnBALcwtAZ6MYyzfAIXgs=
-			</data>
-			<key>hash2</key>
-			<data>
-			t7n26mA6eNhEYRt4lWF68CrT1WkTr6csvJ2HDS9FX6I=
+			QVoPpu44lRL+8cU2G1LKdf6yPD4YLfQDaiBcVOP8Umw=
 			</data>
 		</dict>
 		<key>app/pages/venta/venta.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U1p5XJ8P8Gfr/giWho6XTDTZpKw=
+			myGLrcbC7ayKwoVeIgxxIkSC/ns=
 			</data>
 			<key>hash2</key>
 			<data>
-			cNbqKUff3ZS2vJ6D9AuRWZtXmF0VKS1PqV58o4u5uL8=
-			</data>
-		</dict>
-		<key>app/pages/venta/venta.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BHSDsU3gXkRrMEhK1hE2WeRjRq8=
-			</data>
-			<key>hash2</key>
-			<data>
-			gouknlAkdD6ux4YuGzcDFHEvQGVcucQy1P2lmlgnflo=
+			fKXKCtqnz2i2SL9+CplBlPMvfF2MWbRrXuhCcRPHoTo=
 			</data>
 		</dict>
 		<key>app/pages/venta/venta.css</key>
@@ -22380,132 +21550,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JoeVBMtWcP0i6ISv5ZVseHSqPjA=
+			UYjSB10xUEzpsxxWU/SYzvGy6ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			ijfXnReqeAZx8FsY4EyBAjSkyuCClNLhYOUXcGAnSQM=
-			</data>
-		</dict>
-		<key>app/pages/venta/venta.module.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jzw5KktmETOQyXFvgcReMMuL9vY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Z+YO4ImiJpXo9LI/NjKBNYCOaK0BI79hWNlVVo59APw=
+			vYQyGjPdWZFgChm/5SciGXPVhz0Ecad9UqCBxrjyfDE=
 			</data>
 		</dict>
 		<key>app/pages/venta/venta.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			evgTk3S9cdenw2sCXZ9AOYgmHKM=
+			GYxWt5PYI4BwANxQUuBUzNg+NLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			c5BAWDlLyEiLU1wQijFI9rf8LJkdAJ42bjj5mwOQKfo=
-			</data>
-		</dict>
-		<key>app/pages/venta/venta.service.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			akyLu7j+oMA/fYKX/efrst6sWMs=
-			</data>
-			<key>hash2</key>
-			<data>
-			YkcqYkeRq1tsSDoU6Um0fcUINB7A8IBczBA98qWlxm0=
+			oTdXohQJpnuJ8//hfTf9H7/4dZUFZCgbsF1pJHkWIM4=
 			</data>
 		</dict>
 		<key>app/shared/config.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/TnOQLiZQoK5IyuduNcGyLQHTtI=
+			CexpPeSpNr011vxaqiDCQ+rpLP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hCx/xBeyHaqfUq9eFxZTe7RxuVlb5IlyeKRlVPYRC1Q=
-			</data>
-		</dict>
-		<key>app/shared/config.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PWqEMyR9tTql9ybWy8o+F7oNpvQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Gzr2kDSKz/rFnq+/x+5I4xspaGM3MlS+iE0/78KB3FI=
+			x+F2yU+ku637aAjZg9X00yeu3GWxY4Ap2XeoSoKTj4g=
 			</data>
 		</dict>
 		<key>app/shared/error-feedback/error-feedback.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bEldHvhlB8YxuuiS5z26GeTNV/s=
+			0GXfNkJNi1xTSHf0e65spz8U8pI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gRcZxknkkSLv1s8aRJVeTTWhMJkNlDEeYg9XHSwkC0k=
-			</data>
-		</dict>
-		<key>app/shared/error-feedback/error-feedback.component.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			D1a0OC3Yp+S4Hnw0XYZtFCri3OQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			eSGcbJBGc9d9ifS7Vf6LFRrcOTbl1O256meDdJT2FRc=
+			AKE3FiEJMVT1BruwVq5Aow+rQ4ufIGkmZHk9sNFdQSg=
 			</data>
 		</dict>
 		<key>app/shared/validators/CustomValidators.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ft27nKUfQoLAlsU8LbyaeRC/C9g=
+			1A9yPkaCWp94aui97cN+dYXa+Cg=
 			</data>
 			<key>hash2</key>
 			<data>
-			jahzGVOAPZ9K1A/wMV9fsUxEAyi1w6fJm3vcD4L2Xoo=
-			</data>
-		</dict>
-		<key>app/shared/validators/CustomValidators.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hq740xDYo+VssOFiN/Y4H+eULjc=
-			</data>
-			<key>hash2</key>
-			<data>
-			hi/nM8mVemge42tiH7GtGnlbIdAWs6mfkoZySzQD+es=
+			jng1vV6Y7J6OA8i5AfbwkE/a3GUk0BJXSjPrOSJoT1w=
 			</data>
 		</dict>
 		<key>app/shared/validators/equal-validator.directive.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GsTvgCUqXe2ud0wHToR1RexvIJM=
+			nbBfemOUytlWEdU2k+YzMUUrg50=
 			</data>
 			<key>hash2</key>
 			<data>
-			mmvajNbuuFdk4Vl45ChQ71srajG3XxFMIHpkrxe16Zs=
-			</data>
-		</dict>
-		<key>app/shared/validators/equal-validator.directive.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hoFME+tFExAz+i751CSAuOROJaE=
-			</data>
-			<key>hash2</key>
-			<data>
-			LJ4PlWodc1qcAhhb4gJGdksUsDKVz/gn3pKbmagzMng=
+			QDNZTe1BvSTzcmzxwIAQ0H82KzJmr87p4J8dIHFI2Xs=
 			</data>
 		</dict>
 		<key>app/tns_modules/@angular/common/README.md</key>
@@ -68057,6 +67161,17 @@
 			<key>hash2</key>
 			<data>
 			WJ8CjbQqlvgrxpv0T2n3TrPG5YTdPZIT3MiJSqfvMLI=
+			</data>
+		</dict>
+		<key>build.xcconfig</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y+ckRgoj8BCECoM/H3sFRpHmA/8=
+			</data>
+			<key>hash2</key>
+			<data>
+			+66PmPQQCMlBS2fYhCw2/WF1917RwHL0LbjrDCm93i8=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
