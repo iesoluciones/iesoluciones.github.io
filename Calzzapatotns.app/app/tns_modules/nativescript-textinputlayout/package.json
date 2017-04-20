@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-textinputlayout@^0.1.4",
+        "scope": null,
+        "escapedName": "nativescript-textinputlayout",
+        "name": "nativescript-textinputlayout",
+        "rawSpec": "^0.1.4",
+        "spec": ">=0.1.4 <0.2.0",
+        "type": "range"
+      },
+      "/Users/iedeveloper/NativeScriptProjects/Calzzapatotns"
+    ]
+  ],
+  "_from": "nativescript-textinputlayout@>=0.1.4 <0.2.0",
+  "_id": "nativescript-textinputlayout@0.1.4",
+  "_inCache": true,
+  "_location": "/nativescript-textinputlayout",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-textinputlayout-0.1.4.tgz_1485069530050_0.07132703484967351"
+  },
+  "_npmUser": {
+    "name": "bradleygore",
+    "email": "bradley@bradleygore.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-textinputlayout@^0.1.4",
+    "scope": null,
+    "escapedName": "nativescript-textinputlayout",
+    "name": "nativescript-textinputlayout",
+    "rawSpec": "^0.1.4",
+    "spec": ">=0.1.4 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-textinputlayout/-/nativescript-textinputlayout-0.1.4.tgz",
+  "_shasum": "22d807516219077bc4aa184da31a828b1af981e3",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-textinputlayout@^0.1.4",
+  "_where": "/Users/iedeveloper/NativeScriptProjects/Calzzapatotns",
+  "author": {
+    "name": "Bradley Gore",
+    "email": "bradley@bradleygore.com",
+    "url": "https://github.com/bradleygore"
+  },
+  "bugs": {
+    "url": "https://github.com/bradleygore/nativescript-textinputlayout/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "description": "A NativeScript plugin to provide an XML widget to implement the Material Design TextInputLayout.",
+  "devDependencies": {
+    "babel-traverse": "6.22.1",
+    "babel-types": "6.22.0",
+    "babylon": "6.15.0",
+    "lazy": "1.0.11",
+    "typescript": "^1.8.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "22d807516219077bc4aa184da31a828b1af981e3",
+    "tarball": "https://registry.npmjs.org/nativescript-textinputlayout/-/nativescript-textinputlayout-0.1.4.tgz"
+  },
+  "gitHead": "7992c5b5ddb31dcd9a080d989bdd13dd758ad87f",
+  "homepage": "https://github.com/bradleygore/nativescript-textinputlayout",
+  "keywords": [
+    "NativeScript",
+    "native",
+    "script",
+    "float",
+    "floating label",
+    "android",
+    "TextInputLayout",
+    "Material Design",
+    "bradleygore"
+  ],
+  "license": "MIT",
+  "main": "textInputLayout.js",
+  "maintainers": [
+    {
+      "name": "bradleygore",
+      "email": "bradley@bradleygore.com"
+    }
+  ],
+  "name": "nativescript-textinputlayout",
+  "nativescript": {
+    "id": "com.bradleygore.textinputlayout"
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleygore/nativescript-textinputlayout.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo; cd demo; tns run android",
+    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-textinputlayout; tns plugin add ..; tns install",
+    "setup": "cd demo; npm install; cd ..; npm run build; cd demo; tns plugin add ..; cd .."
+  },
+  "version": "0.1.4"
+}

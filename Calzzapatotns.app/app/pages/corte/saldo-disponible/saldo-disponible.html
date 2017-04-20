@@ -1,0 +1,20 @@
+<GridLayout width="100%" height="100%" columns="*,*" rows="auto,auto" backgroundColor="#EEEEEE" >
+    <Label class="label-ultima" row="0" col="0" text="Última Actualización" ></Label>
+    <Label class="texto-ultima"  row="0" col="1"  [text]="ultimaActualizacion"  ></Label>
+
+    <CardView class="cardStyle" row="1" col="0" colSpan="2" #item shadowColor="#B2B2B2" elevation="10" margin="10" radius="2">
+       <GridLayout columns="*,*" rows="auto,auto,auto,auto" style="margin: 10;">
+           <Label class="labelTitulo"   row="0" col="0"  text="Límite de Crédito"></Label>
+           <Label class="texto"         row="0" col="1"  text="{{limiteCredito | currency:'MXN':true:'4.2-2'}}"></Label>
+           <Label class="labelTitulo"   row="1" col="0"  text="Saldo"></Label>
+           <Label class="texto"         row="1" col="1"   text="{{saldo | currency:'MXN':true:'4.2-2'}}" style="padding-bottom: 10"></Label>
+           <StackLayout row="2" col="0" colSpan="2">
+               <Label class="stack-titulo"     text="Crédito Disponible"></Label>
+               <Label class="stack-texto"      text="{{creditoDisponible | currency:'MXN':true:'4.2-2'}}"></Label>
+           </StackLayout>
+           <Label class="labelTitulo"   row="3" col="0"  text="Estatus" style="padding-top: 10"></Label>
+           <Label class="texto-activo"  row="3" col="1"  text="Activo"></Label>
+       </GridLayout>
+
+    </CardView>
+</GridLayout>

@@ -1,0 +1,19 @@
+TabView {
+    tab-text-color: #D3D3D3;
+    tab-background-color: #EE2933;
+    selected-tab-text-color: white;
+    android-selected-tab-highlight-color: #223D98;
+}
+
+.cobrado{
+    background-color: white;
+    margin-top: 20;
+    margin-bottom: 15;
+    margin-right: 15;
+    margin-left: 15;
+    padding-top: 15;
+    padding-bottom: 15;
+    padding-right: 15;
+    padding-left: 0;
+    color:black;
+}

@@ -1,0 +1,43 @@
+.list-item {
+    background-color: white;
+    margin-top: 8;
+    margin-bottom: 8;
+    margin-right: 7;
+    margin-left: 7;
+
+}
+
+TabView {
+    tab-text-color: #D3D3D3;
+    tab-background-color: #EE2933;
+    selected-tab-text-color: white;
+    android-selected-tab-highlight-color: #223D98;
+}
+
+Image{
+    stretch:aspectFit;
+    height:25;
+}
+
+ListView{
+     margin: 0px 8px 15px 8px;
+    background-color: #07314a;
+}
+
+.modal {
+    padding: 10;
+    margin-bottom: 25;
+    height: auto;
+    font-size: 15;
+
+
+}
+.stack-template {
+
+    background-color: #EAEAEA;
+}
+
+.label-info{
+    color: gray;
+    font-size: 14;
+}

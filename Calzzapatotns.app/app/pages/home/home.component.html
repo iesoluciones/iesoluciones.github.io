@@ -1,0 +1,44 @@
+<RadSideDrawer #drawer [transition]="sideDrawerTransition" selectionBehavior="None" style="height: 100%;" (drawerOpening)="onDrawerOpening()">
+    <StackLayout tkDrawerContent style="background-color: white" columns="*">
+        <StackLayout class="profile" (tap)="redireccion('inicio')">
+            <Image src="~/assets/profile.jpg" horizontalAlignment="left" width="100px" marginTop="3%" marginBottom="5"  (tap)="redireccion('inicio')"></Image>
+            <Label text="{{user.first_name +' '+user.last_name}}" horizontalAlignment="left" style="color:white;font-weight: bold" marginBottom="3%" textWrap="true"></Label>
+        </StackLayout>
+        <ScrollView>
+            <StackLayout class="container" style="font-size: 19px">
+                <grid-layout columns="55,*" rows="*,*,*,*,*,*,*,*,*,*,*">
+                    <Image row="0" col="0" src="~/assets/miCuenta.png" horizontalAlignment="center"></Image>
+                    <Label row="0" col="1" text="Mi Cuenta" (tap)="redireccion('micuenta')"></Label>
+                    <Image row="1" col="0" src="~/assets/corteSaldoCredigana.png" horizontalAlignment="center"></Image>
+                    <Label row="1" col="1" text="Corte y Saldo" (tap)="corte()"></Label>
+                    <Image row="2" col="0" src="~/assets/misClientes.png" horizontalAlignment="center"></Image>
+                    <Label row="2" col="1" text="Mis Clientes" (tap)="redireccion('clientes')"></Label>
+                    <Image row="3" col="0" src="~/assets/misVales.png" horizontalAlignment="center"></Image>
+                    <Label row="3" col="1" text="Mis Vales" (tap)="redireccion('vales')"></Label>
+                    <Image row="4" col="0" src="~/assets/misVentas.png" horizontalAlignment="center"></Image>
+                    <Label row="4" col="1" text="Mis Ventas" (tap)="redireccion('ventas')"></Label>
+                    <Image row="5" col="0" src="~/assets/misPagos.png" horizontalAlignment="center"></Image>
+                    <Label row="5" col="1" text="Mis Pagos"></Label>
+                    <Image row="6" col="0" src="~/assets/eventos.png" horizontalAlignment="center"></Image>
+                    <Label row="6" col="1" text="Eventos"></Label>
+                    <Image row="7" col="0" src="~/assets/corteSaldoCredigana.png" horizontalAlignment="center"></Image>
+                    <Label row="7" col="1" text="CrediGana"></Label>
+                    <Image row="8" col="0" src="~/assets/notificaciones.png" horizontalAlignment="center"></Image>
+                    <Label row="8" col="1" text="Notificaciones"></Label>
+                    <Image row="9" col="0" src="~/assets/oficinaCredito.png" horizontalAlignment="center"></Image>
+                    <Label row="9" col="1" text="Oficina de Crédito" (tap)="oficinaCredito()"></Label>
+                    <Image row="10" col="0" src="~/assets/salir.png" horizontalAlignment="center" *ngIf="user.name!='Anónimo'"></Image>
+                    <Label row="10" col="1" text="Salir" (tap) = "salir()" *ngIf="user.name!='Anónimo'"></Label>
+                </grid-layout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+    <StackLayout tkMainContent>
+        <ActionBar title="Calzzapato">
+            <NavigationButton    text="Menú" android.systemIcon="ic_menu_moreoverflow" (tap)="openDrawer()"></NavigationButton>
+            <ActionItem  *ngIf="plataforma" ios.position="left" android.position="none"  text="Menu" android.systemIcon="ic_ab_back_holo_dark" (tap)="openDrawer()"></ActionItem>
+            <!--<ActionItem  android.systemIcon="ic_menu_moreoverflow_normal_holo_light" ios.position="right" android.position="none"></ActionItem>-->
+        </ActionBar>
+        <router-outlet></router-outlet>
+    </StackLayout>
+</RadSideDrawer>

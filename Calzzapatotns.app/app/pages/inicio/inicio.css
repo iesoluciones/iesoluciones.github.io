@@ -1,0 +1,92 @@
+.titulo{
+    font-size: 16;
+    color: #223D98;
+    font-weight: bold;
+    vertical-align: center;
+}
+.icono{
+    margin-left: 10;
+    vertical-align: center;
+    horiz-align: center;
+
+}
+
+.info{
+    text-align: right;
+    vertical-align: center;
+    color: #000;
+    font-size: 13;
+    font-weight: bold;
+
+}
+
+.info-titulo{
+    text-align: right;
+    vertical-align: center;
+    color: #AAAAAA;
+    font-size: 13;
+}
+
+.flecha{
+    margin:3%;
+    vertical-align: center;
+    horiz-align: center;
+}
+
+.grid{
+    border-bottom-width: 1;
+    border-bottom-color: #BCBCBC ;
+}
+
+.barra{
+    background-color: #223D98;
+}
+
+.nombre{
+    vertical-align: center;
+    color: white;
+    font-size: 18dp;
+    font-weight: bold;
+    padding: 5;
+}
+
+.image-nivel {
+    vertical-align: center;
+    horiz-align: center;
+    margin-right: 10;
+    margin-top: 10;
+}
+
+.nombre-nivel{
+    text-align: right;
+    color: #BDC2DB;
+    font-size:15;
+    vertical-align: center;
+    padding:3;
+}
+
+.saldo-info-extendido{
+    text-align: right;
+    vertical-align: center;
+    color: white;
+    font-size: 15;
+    font-weight: bold;
+}
+
+.saldo-titulo-extendido{
+    vertical-align: center;
+    color: #e0e0e0;
+    font-size: 11;
+}
+
+.grid-extendido{
+    background-color: #EE2933;
+}
+.fab-button {
+    height: 70;
+    width: 70;
+    margin: 15;
+    horizontal-align: right;
+    vertical-align: bottom;
+    background-color: #EE2933;
+}

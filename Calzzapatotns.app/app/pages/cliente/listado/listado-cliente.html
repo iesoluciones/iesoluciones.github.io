@@ -1,0 +1,23 @@
+<GridLayout rows="*,auto" style="padding: 10;" >
+    <ListView [items]="clientes" [class.visible]="listLoaded">
+        <template let-item='item'>
+            <StackLayout (tap)="detalle(item)">
+                <GridLayout columns="50,15,50, *,auto" rows="50, auto,*" class="list-item" style="padding: 10px 15px 15px 15px;">
+                    <Image class="btn-like" height="30" width="30" row="0" col="0" src="~/assets/like.png"  stretch="aspectFill"></Image>
+                    <Button text="CL" row="0" col="2"  width="100%" backgroundColor="blue" style="border-radius:25;color:white;" horizontalAlignment="right" ></Button>
+                    <StackLayout row="0" col="3" rowSpan="2" style="margin:0;padding: 0"  >
+                        <Label text="{{item.nombre+' '+item.paterno}}" style="font-size:15px;font-weight: bold;margin:0;padding: 0px 0px 0px 15px" textWrap="true"></Label>
+                        <Label text="Próximo pago" style="margin:0;padding: 0;font-size: 10px;padding: 0px 0px 0px 15px" textWrap="true"></Label>
+                    </StackLayout>
+                    <StackLayout row="0" col="4" rowSpan="2" style="margin:0;padding: 0" >
+                        <Label text="$1,300.00" style="font-weight: bold;font-size: 10px;margin:0;padding: 0" textWrap="true"></Label>
+                        <Label text="13 Oct 2017" style="margin:0;padding: 0;font-size: 10px" textWrap="true"></Label>
+                    </StackLayout>
+                </GridLayout>
+            </StackLayout>
+        </template>
+    </ListView>
+    <StackLayout horizontalAlignment="right" verticalAlignment="bottom">
+        <FAB (tap)="nuevo()" icon="~/assets/ic_add_white.png" rippleColor="#f1f1f1" backColor="#EE2933" class="fab-button" style="width: 70; height: 70;" horizontalAlignment="right" verticalAlignment="bottom"></FAB>
+    </StackLayout>
+</GridLayout>

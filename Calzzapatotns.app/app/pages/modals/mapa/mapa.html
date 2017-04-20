@@ -1,0 +1,6 @@
+<StackLayout class="modal-mapa" sdkExampleTitle sdkToggleNavButton backgroundColor="white" style="margin: 0px;padding: 0px">
+  <GridLayout>
+      <MapView top="0" left="0" width="100%" height="100%" (mapReady)="onMapReady($event)" (coordinateTapped)="mapTapped($event)" (markerSelect) = "onMarkerSelect($event)"></MapView>
+      <Button text="Aceptar" (tap)="guardar()" [ngClass]="{'style1': validarButton()}" isEnabled = "{{valid}}" backgroundColor="#223D98" color="white" horizontalAlignment="center" verticalAlignment="bottom"></Button>
+  </GridLayout>
+</StackLayout>
